@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12118" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Meopin_TOPS.ttf">
+            <string>Meopin_TOPS</string>
+        </array>
+        <array key="SourceSansPro-Regular.ttf">
+            <string>SourceSansPro-Regular</string>
+        </array>
+        <array key="SourceSansPro-SemiBold.ttf">
+            <string>SourceSansPro-SemiBold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ProviderFilterCell" rowHeight="45" id="KGk-i7-Jjw" customClass="ProviderFilterCell" customModule="Meopin" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="45"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="44.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Doctor" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DLH-DW-GTj">
+                        <rect key="frame" x="179" y="5" width="116" height="33.5"/>
+                        <constraints>
+                            <constraint firstAttribute="height" relation="lessThanOrEqual" constant="40" id="MIE-D4-vge"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="SourceSansPro-Regular" family="Source Sans Pro" pointSize="14"/>
+                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wbt-1c-rdL">
+                        <rect key="frame" x="300" y="16" width="20" height="12"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="20" id="Aef-bF-pGw"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Meopin_TOPS" family="Meopin_TOPS" pointSize="12"/>
+                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="249" verticalHuggingPriority="251" text="What are you looking for?" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DCB-lQ-bSE">
+                        <rect key="frame" x="10" y="5" width="161" height="34.5"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <fontDescription key="fontDescription" name="SourceSansPro-SemiBold" family="Source Sans Pro" pointSize="12"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                <constraints>
+                    <constraint firstItem="DLH-DW-GTj" firstAttribute="leading" secondItem="DCB-lQ-bSE" secondAttribute="trailing" constant="8" id="DpN-Zm-RT5"/>
+                    <constraint firstItem="DLH-DW-GTj" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" constant="77" id="E68-74-l4x"/>
+                    <constraint firstAttribute="bottom" secondItem="DCB-lQ-bSE" secondAttribute="bottom" constant="5" id="IJV-8z-oAa"/>
+                    <constraint firstItem="DLH-DW-GTj" firstAttribute="centerY" secondItem="Wbt-1c-rdL" secondAttribute="centerY" id="RSl-mo-LvA"/>
+                    <constraint firstItem="DCB-lQ-bSE" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="cQo-q3-OEm"/>
+                    <constraint firstItem="DCB-lQ-bSE" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="i2D-Li-uIu"/>
+                    <constraint firstItem="DLH-DW-GTj" firstAttribute="centerY" secondItem="DCB-lQ-bSE" secondAttribute="centerY" id="knw-4I-Axd"/>
+                    <constraint firstItem="Wbt-1c-rdL" firstAttribute="leading" secondItem="DLH-DW-GTj" secondAttribute="trailing" constant="5" id="lra-6J-1qM"/>
+                    <constraint firstAttribute="trailing" secondItem="Wbt-1c-rdL" secondAttribute="trailing" id="rl3-LN-6Fd"/>
+                    <constraint firstItem="DLH-DW-GTj" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="yFI-gb-EYL"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <connections>
+                <outlet property="lblArrow" destination="Wbt-1c-rdL" id="OAt-BV-0ZZ"/>
+                <outlet property="lblProviderQuest" destination="DCB-lQ-bSE" id="oqD-ga-Tgc"/>
+                <outlet property="lblProviderType" destination="DLH-DW-GTj" id="sX6-xe-EHn"/>
+            </connections>
+            <point key="canvasLocation" x="-152" y="136.5"/>
+        </tableViewCell>
+    </objects>
+</document>

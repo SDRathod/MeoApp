@@ -1,0 +1,23 @@
+# Uncomment this line to define a global platform for your project
+# platform :ios, '9.0'
+use_frameworks!
+
+target 'Meopin' do
+    pod 'AFNetworking'
+    pod 'IQKeyboardManagerSwift'
+    pod 'SpinKit'
+    pod 'Crashlytics'
+    pod 'ISMessages'
+    pod 'TOActionSheet'
+    pod 'FXPageControl'
+    pod 'SDWebImage', '~>3.8'
+    pod 'Cosmos', '~> 9.0'
+    pod 'GooglePlaces'
+    pod 'GooglePlacePicker'
+    pod 'GoogleMaps'
+    pod 'FSCalendar'
+    pod 'CalendarKit'
+    pod 'SVPullToRefresh'
+    pod 'HMSegmentedControl'
+    pod 'RNNotificationView'
+end

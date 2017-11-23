@@ -1,0 +1,509 @@
+/*
+ Localizable.strings
+ Peepons
+ 
+ Created by Dhara
+ Copyright (c) 2014 Dhara. All rights reserved.
+ */
+
+
+//Language
+"keyLangen" = "English";
+"keyLangnl" = "Nederlands";
+"keyLangfr" = "français";
+"keyLangde" = "Deutsche";
+
+//common messages
+"keyInternetMsg" = "Oops, wir können Sie nicht mit Meopin verbinden. Überprüfen Sie Ihre Verbindung und versuchen Sie es erneut.";
+"KeyUnknowError" = "Etwas ist schief gelaufen. Bitte versuchen Sie es erneut.";
+
+"keyYes" = "Ja";
+"keyNo" = "Nein";
+"keyOk" = "Ok";
+"keyCancel" = "Annullieren";
+"keyDone" = "Erledigt";
+"keySave" = "Speichern";
+"keyComingSoon" = "Wird bald online gehen!";
+"keyBuildNo" = "Bauen:";
+"keyAppUpgradeMsgTitle" = "Eine neue Version ist verfügbar.";
+"keyAppUpgradeMsg" = "Eine neuere Version ist zum Downloaden verfügbar. Bitte updaten Sie die App im Apple Store.";
+"keyAppUpgradeUpdate" = "Aktualisierung";
+
+//Photo
+"keyTakePhoto" = "Machen Sie ein Bild.";
+"keyChoosePhoto" = "Wählen Sie ein Bild aus.";
+"keyRemovePhoto" = "Entfernen Sie das Bild.";
+"keyNoCamera" = "Die Kamera ist nicht verfügbar.";
+
+//Logout
+"keyLogoutMsg" = "Sind Sie sicher, sich auszuloggen?";
+
+//Register Screen
+"KeyRegister" = "Registrieren";
+"KeyRegisterContent" = "Sie sich hier als Patient. Die Registrierung ist notwendig, um Dienstleister zu bewerten und Termine anzufragen.";
+
+"KeySalutation" = "Anrede";
+"KeyTitle" = "Titel";
+"KeyFirstName" = "Vorname";
+"KeyLastName" = "Familienname";
+"KeyUserName" = "Benutzername";
+"KeyEmailAddress" = "E-mail";
+"KeyMobileNo" = "Bsp. +(Ländervorwahl)(Mobilnummer)";
+"KeyPassword" = "Wählen Sie ein Passwort";
+"KeyPasswordCon" = "Bestätigen Sie Ihr Passwort";
+"KeyPolicy" = "Ich bin mit den Datenschutzbestimmungen von Meopin einverstanden.";
+"KeylblTerms" = "Ich bin mit den AGBs von Meopin einverstanden";
+"KeyLogIN" = "Schon registriert? Einloggen";
+"keyRegisterTitile" = "Ich bin eine neuer Benutzer";
+
+"keyRVSalutation" = "Geben Sie Ihre Anrede an.";
+"keyRVTitle" = "Geben Sie Ihren Titel an.";
+"keyRVFirstName" = "Geben Sie Ihren Vornamen an.";
+"keyRVLastName" = "Geben Sie Ihren Familiennamen an.";
+"keyRVUserName" = "Geben Sie Ihren Benutzernamen an.";
+"keyRVMobileNo" = "Geben Sie Ihre Mobilnummer an.";
+
+"keyRVEmailMsg1" = "Geben Sie Ihre E-Mail an.";
+"keyRVEmailMsg2" = "Geben Sie eine gültige E-Mail an.";
+
+"keyRVPassword" = "Wählen Sie bitte ein Passwort.";
+"keyRVPasswordMsg2" = "Ihr Passwort muss 6 Zeichen haben, und mindestens 2 Grossbuchstaben, 1 Kleinbuchstaben und 1 Zahl begreifen.";
+
+"keyRVConfPassword" = "Bestätigen Sie bitte Ihr Passwort.";
+"keyRVConfPassword1" = "Das Passwort und das bestätigte Passwort stimmen nicht überein.";
+"keyRVPrivacy" = "Bitte selektieren Sie Ihr Einverständnis mit den Datenschutzbestimmungen von Meopin,";
+"keyRVTermCondition" = "Bitte selektieren Sie Ihr Einverständnis mit den AGBs von Meopin.";
+
+// Register Varification Screen
+"KeyRegVVarification" = "Überprüfung";
+"KeyRegVVarificationMsg" = "Wir haben Ihnen eine SMS mit einem Code an Ihr Handy mit der Nummer, die Sie während der Registrierung angegeben haben, geschickt.";
+"KeyRegVVarificationConfiMsg" = "Um Ihre Registrierung abzuschliessen, geben sie bitte hier den sechsstelligen Aktivierungscode ein.";
+"KeyRegVVarificationCodeMsg" = "Geben Sie hier den sechsstelligen Aktivierungscode ein.";
+"KeyRegVResendVarificationCode" = "Senden Sie nochmals den Überprüfungscode.";
+"KeyRegVBtnSubmit" = "Einreichen";
+"KeyRegVVarifyCodeMsg" = "Sie haben einen falschen Aktivationscode eingegeben.";
+"KeyRegVVarificationCode" = "Geben Sie den sechsstelligen Aktivierungscode ein.";
+
+//Register Success Screen
+"keyRegisterSuccessStatus" = "Vielen Dank";
+"keyRegisterSuccessMsgFirst" = "Ihre Registrierung wurde bei Meopin eingereicht.";
+"keyRegisterSuccessMsgMiddle" = "Sobald Ihre Registrierung von Meopin akzeptiert wird, werden Sie per E-Mail informiert und Ihre Zugangsdaten erhalten.";
+"keyRegisterSuccessMsgLast" = "Sie können, ohne registriert zu sein, nach Dienstleistern suchen und unsere Gesundheitsartikel lesen.";
+
+"keyRegisterSuccessSearchProvider" = "Nach einem Dienstleister suchen.";
+"keyRegisterSuccessMeopinBlog" = "Hier gehts zum Meopin Blog.";
+
+//Register Failer Screen
+"keyRegisterFailStatus" = "Oops! Keine Übereinstimmung";
+"keyRegisterFailMsg" = "Die Überprüfung Ihrer Telefonnummer ist fehlgeschlagen.";
+"keyRegisterFailScreenMsg" = "Das erste globale und digitale Portal, um \n Gesundheitsdienstleister zu finden und zu bewerten.";
+"keyRegisterFailMsgCode" = "Senden Sie mir einen neuen Aktivierungscode.";
+
+//Provider Edit Profile
+"KeyPEPSalutation" = "Anrede";
+"KeyPEPTitle" = "Titel";
+"KeyPEPFirstName" = "Vorname";
+"KeyPEPLastName" = "Familienname";
+"KeyPEPEmailAddress" = "E-Mail";
+"KeyPEPPracticeName" = "Bezeichnung der Praxis";
+"KeyPEPStreet" = "Strasse";
+"KeyPEPNo" = "Nr";
+"KeyPEPCity" = "Stadt";
+"KeyPEPCountry" = "Land";
+"KeyPEPWebsite" = "Webseite";
+"KeyPEPFax" = "Telefax";
+"KeyPEPPassword" = "Passwort";
+
+"KeyPEPEditProfile" = "Profil bearbeiten";
+"KeyPEPChangePassword" = "Passwort ändern";
+"KeyPEPClose" = "X";
+"KeyPEPSave" = "Speichern";
+
+//Provider Screen
+"KeyPSPracticeName" = "Geben Sie bitte die Bezeichnung der Praxis ein.";
+"KeyPSStreet" = "Geben Sie bitte die Strasse ein.";
+"KeyPSNo" = "Geben Sie bitte die Nummer ein.";
+"KeyPSCity" = "Wählen Sie bitte die Stadt.";
+"KeyPSCountry" = "Wählen Sie bitte das Land.";
+"KeyPSWebsite" = "Geben Sie bitte die Webseite ein.";
+"KeyPSFax" = "Geben sie bitte die Faxnummer ein.";
+
+//Home Screen
+"keyHomeWelcomeMsg" = "Willkommen";
+"keyHomeLogin" = "   Einloggen";
+"keyHomeSubTitle" = "Das erste globale und digitale Portal, um \n Gesundheitsdienstleister zu finden und zu bewerten.";
+"keyHomeSearch" = "Suchen";
+"keyHomeSearchSub" = "Ihre Gesundheitsdienstleister zu finden.";
+"keyHomeWriteReview" = "Eine Bewertung abgeben";
+"keyHomeWriteReviewSub" = "un zu bewerten.";
+"keyHomeMakeApp" = "Termin vereinbaren";
+"keyHomeMakeAppSub" = "With your preferred providers.";
+"keyHomeReadArticle" = "Medizinische Beiträge lesen";
+"keyHomeReadArticleSub" = "In unserem Blog.";
+"keyHomeYouProvider" = "Ich bin ein Dienstleister";
+"keyHomeYouPatient" = "Ich bin ein Patient";
+"keyHomeButton" = "Home";
+"keyHomeAboutUs" = "Über uns";
+"keyHomeContact" = "Uns kontaktieren";
+"keyHomeOfferedIn" = "Meopin angeboten in:";
+
+//Change Password
+"keyCPOldPassword" = "Altes Passwort eingeben";
+"keyCPNewPassword" = "Neues Passwort eingeben";
+"keyCPConfPassword" = "Passwort bestätigen";
+"keyCPSavePassword" = "Passwort speichern";
+"keyCPVNewPassword" = "Neues Passwort eingeben";
+"keyCPVOldPassword" = "Altes Passwort eingeben";
+"keyCPVConfPassword" = "Passwort bestätigen";
+"keyCPPasswordMsg2" = "Ihr Passwort muss 6 Zeichen haben, und mindestens 2 Grossbuchstaben, 1 Kleinbuchstaben und 1 Zahl begreifen.";
+
+//Login Screen
+"keyLILoginTitle" = "Einloggen als";
+"keyLIEmail" = "E-Mail";
+"keyLIPassword" = "Passwort";
+"keyLIForPwd" = "Passwort vergessen?";
+"keyLILogin" = "Einloggen";
+"keyLINewUser" = "Ich bin ein neuer Nutzer";
+"keyLIEmailMsg1" = "Geben Sie bitte Ihre E-Mail ein.";
+"keyLIEmailMsg2" = "Geben Sie ein gültige E-Mail ein.";
+"keyLIPasswordMsg1" = "Geben Sie bitte Ihr Passwort ein.";
+"keyLIPasswordMsg2" = "Ihr Passwort muss 6 Zeichen haben, und mindestens 2 Grossbuchstaben, 1 Kleinbuchstaben und 1 Zahl begreifen.";
+
+//Forgot Password
+"keyFPForgotTitle" = "Passwort vergessen";
+"keyFPSubTitle" = "Um ein neues Passwort zu erstellen, geben Sie bitte hier Ihre \nMobilnummer ein, die Sie während der Registrierung benutzt haben.";
+"keyFPMobile" = "Bsp. +(Ländervorwahl) (Mobile Nummer)";
+"keyFPNext" = "Weiter";
+"keyFPMobileMsg1" = "Geben Sie bitte Ihre hinterlegte Mobilnummer ein.";
+"keyFPMobileMsg2" = "Geben Sie bitte Ihre gültige hinterlegte Mobilnummer ein.";
+"keyFPVerificationTitle" = "Überprüfung";
+"keyFPVerifSubTitle" = "Geben Sie bitte hier Ihren sechsstelligen Aktivierungscode ein.";
+"keyFPVerifCode" = "Geben Sie hier Ihren sechsstelligen Aktivierungscode ein";
+"keyFPResendCode" = "Überprüfungscode nochmals senden";
+"keyFPVerify" = "Überprüfen";
+"keyFPCodeMsg1" = "Geben Sie hier Ihren sechsstelligen Aktivierungscode ein.";
+"keyFPCreatePwdTitle" = "Neues Passwort erstellen";
+"keyFPCreatePwdSubTitle" = "Geben Sie ein neues Passwort für Ihr Konto ein.";
+"keyFPNewPassword" = "Neues Passwort";
+"keyFPConfirmaPassword" = "Passwort bestätigen";
+"keyFPSubmit" = "Einreichen";
+"keyFPNewPwdMsg1" = "Geben Sie ein neues Passwort ein.";
+"keyFPNewPwdMsg2" = "Ihr Passwort muss 6 Zeichen haben, und mindestens 2 Grossbuchstaben, 1 Kleinbuchstaben und 1 Zahl begreifen.";
+"keyFPConfPwdMsg1" = "Bestätigen Sie bitte das Passwort.";
+"keyFPConfPwdMsg2" = "Das neue Passwort und das von Ihnen bestätigte Passwort sollten übereinstimmen.";
+
+//Patient Profile
+"keyPaPMyProfile" = "Mein Profil";
+"keyPaPUpload" = ""; //\nHochladen
+"keyPaPSalutation" = "Anrede";
+"keyPaPTitle" = "Titel";
+"keyPaPFirstName" = "Vorname";
+"keyPaPLastName" = "Familienname";
+"keyPaPUsername" = "Benutzername";
+"keyPaPE-mail" = "E-Mail";
+"keyPaPPhone Number" = "Telefonnummer";
+"keyPaPSave" = "Speichern & Prüfen";
+"keyPaPEditDetails" = "Details bearbeiten";
+"keyPaPChangePassword" = "Passwort ändern";
+"keyPaPUserNameInfo" = "";
+"keyPaPSalutationMsg1" = "Anrede eingeben";
+"keyPaPSalutationMsg2" = "Gültige Anrede eingeben";
+"keyPaPTitleMsg1" = "Titel eingeben";
+"keyPaPTitleMsg2" = "Gültigen Titel eingeben";
+"keyPaPFirstNameMsg1" = "Vorname eingeben";
+"keyPaPFirstNameMsg2" = "Gültigen Vornamen eingeben";
+"keyPaPLastName1" = "Familienname eingeben";
+"keyPaPLastName2" = "Gültigen Familiennamen eingeben";
+"keyPaPUsernameMsg1" = "Benutzername eingeben";
+"keyPaPUsernameMsg2" = "Gültigen Benutzernamen eingeben";
+"keyPaPE-mailMsg1" = "E-Mail eingeben";
+"keyPaPE-mailMsg2" = "Gültige E-Mail eingeben.";
+"keyPaPPhoneNumberMsg1" = "Mobilnummer eingeben.";
+"keyPaPPhoneNumberMsg2" = "Gültige Mobilnummer eingeben.";
+"keyPaPUserInfoToolTip" = "Damit Ihre Bewertungen von Dienstleistern anonym erfolgen können, müssen Sie hier einen Benutzername wählen, unter dem Ihre Bewertung im Portal veröffentlicht wird.";
+"keyPaPPasswordPopToolTip" = "Ihr Passwort muss 6 Zeichen haben, und mindestens 2 Grossbuchstaben, 1 Kleinbuchstaben und 1 Zahl begreifen.";
+"keyPaPProfilePicSizeMsg1" = "Wählen Sie bitte eine Bildgrösse von weniger als 2048 KB.";
+
+//Patient Profile Verification
+"keyPaPVerificationTitle" = "Überprüfung";
+"keyPaPVerifSubTitle" = "Geben Sie hier Ihren sechsstelligen Aktivierungscode ein.";
+"keyPaPVerifCode" = "Geben Sie hier Ihren sechsstelligen Aktivierungscode ein.";
+"keyPaPResendCode" = "Den Überprüfungscode nochmals senden";
+"keyPaPVerify" = "Überprüfen";
+"keyPaPCodeMsg1" = "Geben Sie hier Ihren sechsstelligen Aktivierungscode ein.";
+
+//Provider Scheduling
+"keyPSMonday" = "Montag";
+"keyPSTuesday" = "Dienstag";
+"keyPSWednesday" = "Mittwoch";
+"keyPSThursday" = "Donnerstag";
+"keyPSFriday" = "Freitag";
+"keyPSSaturday" = "Samstag";
+"keyPSSunday" = "Sonntag";
+"keyPSOnLeave" = "Ausser Dienst";
+"keyPSSpecialRules" = "Spezielle Regeln";
+"keyPSSelect" = "Auswählen";
+"keyPSAppointment" = "Mein Termin";
+"keyPSConfiguration" = "Einstellungen";
+"keyPSTimeSlots" = "Zeitfenster";
+"keyPSFrom" = "Von";
+"keyPSTo" = "An";
+"keyPSMins" = "Minuten";
+"keyPSHour" = "Stunde";
+"keyPSHours" = "Stunden";
+"keyPSCustom" = "Massgeschneidert";
+"keyPSNone" = "Keine";
+"keyPSOnDays" = "Tage";
+"keyPSOnDay" = "Tag";
+"keyPSOnToSmall" = "an";
+"keyPSOnLeaveCaps" = "Ausser Dienst";
+"keyPSDelete" = "löschen";
+"keyPSDeleteMsg1" = "Sind Sie sicher, dass Sie diesen Ausser-Dienst-Eintrag löschen wollen?";
+"keyPSDateMsg1" = "Von-Datum sollte gleich oder später sein als aktuelles Datum.";
+"keyPSDateMsg2" = "Bis-Datum sollte gleich oder später sein als Von-Datum.";
+"keyPSSpcRuleTitle" = "Für jeden Monat geltende spezielle Regeln";
+"keyPSSpcRuleHalfTitle" = "Spezielle Regeln";
+"keyPSRuleSpeDay" = "Spezieller Tag";
+"keyPSRuleOffDay" = "Urlaub";
+"keyPSOfEveryMonth" = "von jedem Monat";
+"keyPSSpecialRule" = "Spezielle Regel";
+"keyPSDeleteSpeRuleMsg1" = "Sind Sie sicher, dass Sie diese spezielle Regel löschen möchten?";
+"keyPSHasSpecialTime" = "hat eine spezielle Zeit";
+"keyPSWeek" = "Woche";
+"keyPSRuleDayMsg1" = "Wählen Sie bitte einen Wert aus für 'Woche'.";
+"keyPSRuleDateMsg1" = "Wählen Sie bitte eine  Wert aus für 'Tag'.";
+"keyPSRuleTypeMsg1" = "Wählen Sie bitte einen Wert aus für 'von jedem Monat'.";
+"keyPSRuleTimeMsg1" = "Bis-Zeit sollte grösser sein als Von-Zeit.";
+"keyPSRuleTimeMsg2" = "Der zweite Zeitpunkt ist schon im ersten Zeitpunkt enthalten.";
+"keyPSReset" = "Zurücksetzen";
+"keyPSApply&Search" = "Anwenden & Suchen";
+"keyPSRepeat" = "Wiederholen";
+"keyPSAccept" = "Akzeptieren";
+"keyPSReject" = "Ablehnen";
+"keyPSModify" = "Ändern";
+"keyPSView" = "Ansehen";
+"keyPSWaitingForAccept" = "Auf eine Akzeptierung wartend";
+"keyPSApproveAlertMsg1" = "Sind Sie sicher, dass Sie diesen Termin annehmen wollen?";
+"keyPSRejectAppointment" = "Termin ablehnen";
+"keyPSRejectReason" = "Grund für die Ablehnung?";
+
+//Provider Search
+"keyPSearchPlaceHolder" = "Suchen..";
+"keyPSearchTitle" = "Nach Dienstleistern suchen";
+"keyPSearchReason" = "welche Art von Gesundheitsdienstleister brauchen Sie?";
+"keyPSearchSpeciality" = "Bsp. Spezialität, Name des Dienstleisters, Krankenhaus, Stichwörter..";
+"keyPSearchViewMap" = "Kartenansicht";
+"keyPSearchViewListing" = "Ergebnisliste-Ansicht";
+"keyPSearch" = "Suchen";
+"keyPSearchNeedMore" = "Brauchen Sie mehr? Nutzen Sie die erweiterte Suche.";
+"KeyBtnSelectIcon" = "";
+"keyListIcon" = "";
+"keyMapIcon" = "";
+"keySearchResult" = "Suchergebnisse";
+
+//Slide Menu
+"keySlMyMeopin" = "Mein Meopin";
+"keySlHome" = "Home";
+"keySlDashboard" = "Dashboard";
+"keySlSearchProvider" = "Dienstleister suchen";
+"keySlMakeAppointment" = "Termin vereinbaren";
+"keySlMyAppointments" = "Meine Termine";
+"keySlWriteReview" = "Bewertung verfassen";
+"keySlInbox" = "Nachrichten-Eingang";
+"keySlMyReviews" = "Meine Bewertungen";
+"keySlMyFavorites" = "Meine Favoriten";
+"keySlHelpDesk" = "Help-Desk";
+"keySlAppointmentSettings" = "Termin-Einstellungen";
+"keySlAccountSettings" = "Konto & Einstellungen";
+"keySlReadMedicalArticles" = "Medizinische Artikel lesen";
+"keySlLogOut" = "Ausloggen";
+"keySlNew" = "neu";
+
+//Create Appointment
+"keyCAMakeAppointment" = "Termin vereinbaren";
+"keyReasonForAppointment" = "Grund für den Termin";
+"keyConfirmBooking" = "Buchung bestätigen";
+"keyPersonalMessage" = "Persönliche Nachricht für den Dienstleister (max. 200 Zeichen)";
+
+
+/////////////////*************** NEW MODULE'S KEYS ***************/////////////////
+
+"keyReasonAlert" = "Gene Sie Ihre Nachricht ein";
+"keyReasonSelectAlert" = "Wählen Sie einen Grund für den Termin aus";
+"keyAppointmentRequest" = "Details for Ihre Terminanfrage";
+"keyGoAppointmentDetail" = "Zu den Termindetails gehen";
+"keyRequestSentMsg" = "Die Terminanfrage wurde \nwurde Ihrem Anbieter zugestellt, \nzwecks Annahme.";
+
+"keyRequestSentMsg1" = "Ihre Terminanfrage muss vom Dienstleister bestätigt werden. \n Wir werden Sie informieren, sobald der Dienstleister \n Ihre Anfrage bestätigt hat.";
+"keyReasonForChange" = "Grund für ie Änderung";
+"keySelectedAppontmentTitle" = "Wählen Sie die Uhrzeit für den Termin aus";
+"keySelectedAppontmentDateAlert" = " Anfrage wurde geändert zu";
+"keySelectedAppontmentDateAlert1" = " Klicken She auf ‘ANFRAGE SENDEN’ um abzuschliessen";
+
+"KeyPersonalMessageSmall" = "Persönliche Nachricht";
+"keyNoRecord" = "Keine Daten gefunden";
+"keyNoMobileNoAlert" = "Die Mobilnummer its nicht erreichbar";
+"keyNoEmailAlert" = "Die Email-Adresse est nicht erreichbar";
+"keyDeviceEmailNotSupportAlert" = "Ihr Apparat kann keine E-mails senden. Bitte überprüfen Sie die Konfiguration und versuchen She es erneut.";
+
+"keyRemoveFavorite" = "Sind Sie sicher, dass Sie diesen Dienstleister von der Favoritenliste entfernen möchten?";
+"keyProposNewTime" = "Neue Uhrzeit vorschlagen";
+"KeyAuthor" = "Autor";
+
+//Dashboard
+"keyDasTitle" = "Dashboard";
+"keyDasToday" = "Heutige Termine";
+"keyDasWaiting" = "Auf Bestätigung wartend";
+"keyDasMyAppointment" = "Mein Termin";
+"keyDasMyReview" = "Meine Bewertung";
+"keyDasHelpDesk" = "Help-Desk";
+"keyDasNoAppointment" = "Es wurden keine Termine gefunden!";
+
+//Pull to refresh screen
+"keyPRTLoading" = "Laden...";
+"keyPRTReleaseRefresh" = "Freigeben zum Aktualisieren...";
+"keyPRTDownRefresh" = "Herunterziehen zum Aktualisieren...";
+
+//Review Section
+"keyRVWTipsForYou" = "Tipps for Sie";
+"keyRVWTipsSubTitle" = "Wenn Sie diese vier Tipps berücksichtigen, profitieren andere Patienten am meisten bei ihrer Suche nach dem besten Dienstleister.";
+"keyRVWTipsPoints" = "1. Formulieren Sie Ihre subjektive Meinung!! Schreiben Sie lieber \"Ich glaube, der Arzt hat sich viel zu wenig Zeit genommen.\" anstelle von \"Der Arzt hat mich nur 2 Minuten lang behandelt.”. Ihre persönliche Meinung ist durch Grundrechte geschützt. Tatsachen müssen im Zweifelsfall jedoch bewiesen werden, was nicht immer möglich ist.\n\n2. Differenzieren Sie Ihre Punktzahl, Vergeben Sie Noten in den einzelnen Kategorien – unabhängig vom allgemeinen Eindruck! Wenn Sie beispielsweise mit der Abklärung und Behandlung nicht zufrieden waren, kann der behandelnde Arzt trotzdem freundlich gewesen sein. Oft wird die Glaubwürdigkeit aller Kategorien mit der Note 1 oder 5 markiert. Versuchen Sie auch, die verschiedenen Aspekte Ihres Besuchs beim Dienstleister (z.B. Wartezeiten, Termin, Behandlung ...) zu beschreiben. Vergeben Sie nicht bloß Note 5 oder Note 1. Beurteilen Sie jede Kategorie anders, auf Grundlage Ihrer Erfahrung.\n\n3. Verzichten Sie auf Beleidigungen! Schreiben Sie nicht \"Der Arzt ist ein Volltrottel.\" Ihre Beurteilung sollte ausgewogen und fair sein. Bitte stellen Sie sicher, dass Ihre Kritik nicht beleidigend und verallgemeinernd ist. Petzen ist nicht erlaubt!\n\n4. Nutzen Sie es nicht aus, dass die Kommentare anonym veröffentlicht werden. Auch wenn Sie Ihren Beitrag anonym veröffentlichen könnten, formulieren Sie ihn nicht negativer und hinterlassen Sie keine ungebührlichen Kommentare. Meopin speichert Daten gemäß unserer Datenschutzrichtlinie. Nach gerichtlicher Aufforderung müssen wir gegebenenfalls Ihre Identität offenlegen, beispielsweise zur Vermeidung von Störungen und Straftaten oder zum Schutz der Rechte und der Freiheit anderer.";
+"keyRVWReviewTitle" = "Titel der Bewertung";
+"keyRVWMyFeedback" = "Meine Bewertung";
+"keyRVWVisitDate" = "Datum der Visite";
+"keyRVWPrceedSteps" = "Zu den nächsten Schritten";
+"keyRVWReviewTitleMsg1" = "Geben Sie bitte den Titel der Bewertung ein.";
+"keyRVWMyFeedbackMsg1" = "Geben Sie bitte Ihre Bewertung ein.";
+"keyRVWSchoolNotes" = "Vergeben Sie Sterne";
+"keyRVWScoreDetail" = "1 Stern = schlecht, 2 Sterne = fair, \n3 Sterne = durchschnittlich, 4 Sterne = gut, \n5 Sterne = ausgezeichnet";
+"keyRVWYourAnswer" = "Ihre Antwort: ";
+"keyRVWScore1" = "Schlecht";
+"keyRVWScore2" = "Fair";
+"keyRVWScore3" = "Durchschnittlich";
+"keyRVWScore4" = "Gut";
+"keyRVWScore5" = "Ausgezeichnet";
+"keyRVWMyScoreFor" = "Meine Punktzahl ";
+"keyRVWBasedNotes" = "Auf den oben genannten Punktzahlen begründet";
+"keyRVWMeMessage1" = "Meine Nachricht an ";
+"keyRVWMeMessage2" = " für seine / ihre Bewertung";
+"keyRVWYouLikeInParticular" = "Was haven She speziell gemocht? Was noch?";
+"keyRVWNext" = "Nächste";
+"keyRVWYouLikeInParticularMsg1" = "Geben She hier fin, was Sie speziell gemocht haben.";
+"keyRVWRateMsg1" = "Geben Sie Bewertungen für alle Fragen ein ";
+"keyRVWCheckMarkDetail" = "\"Kästchen klicken\" went She hier nicht antworten wollen oder die Frage nicht relevant ist.";
+"keyRVWNoInformation" = "Keine Information";
+"keyRVWNextAndFinalStep" = "Nächster und letzter Schritt :)";
+
+//Write Review Step5
+"keyRVW5Gender" = "Ihr Geschlecht";
+"keyRVW5GenderMan" = "Ich bin ein Mann";
+"keyRVW5GenderWoman" = "Ich bin eine Frau";
+"keyRVW5Age" = "Mein Alter";
+"keyRVW5Age1" = "< 25 Jahre";
+"keyRVW5Age2" = "25 - 40 Jahre";
+"keyRVW5Age3" = "40 - 55 Jahre";
+"keyRVW5Age4" = "> 55 Jahre";
+"keyRVW5PublishAnonymously" = "Ich möchte, dass meine Bewertung anonym veröffentlicht wird";
+"keyRVW5AnonymouslyYes" = "Ja";
+"keyRVW5AnonymouslyNo" = "Nein, ice möchte meinen Benutzernamen benutzen";
+"keyRVW5AnonymouslyChangeIt" = "hier ändern";
+"keyRVW5AnonymouslyRecommend" = "Ich würde diesen Anbieter general empfehlen?";
+"keyRVW5IAgree" = "Ich bin einverstanden,  dass andere interessierte Patienten mich über diese Bewertung oder den betreffenden Anbieter befragen können (Ich werde anonym bleiben, und die jeweilige Kommunikation wird von Meopin verwaltet)";
+"keyRVW5SubmitReview" = "Bewertung einreichen";
+"keyRVW5HerebyDeclare" = "Ich erkläre hiermit:";
+"keyRVW5HerebyDeclare1" = "Ich wurde von diesem Dienstleister behandelt oder beraten / Ich habe einen Minderjährigen zu einem Termin bei diesem Dienstleister begleitet / Ich habe eine Person zu diesem Dienstleister begleitet, die aufgrund ihres Alters oder einer Krankheit nicht in der Lage ist, diesen Termin ohne Aufsicht zu absolvieren Meine Bewertung entspricht miner persönlichen Erfahrung.";
+"keyRVW5HerebyDeclare2" = "Ich habe keine persönliche oder geschäftliche Verbindung mit diesem Dienstleister und bin kein Mitarbeiter oder Verwandter von diesem. Ich bin kein Dienstleister, keine Agentur und keine Drittpartei, die der Dienstleister für das Verfassen einer Bewertung beauftragt hat. Ich habe diesen Dienstleister noch nicht bewertet. Ich habe für diese Bewertung keine Vergütung und keinen finanziellen Vorteil vom Dienstleister erhalten.";
+"keyRVW5HerebyDeclare3_1" = "Ich erkläre mich formell damit einverstanden, dass meine Bewertung den ";
+"keyRVW5HerebyDeclare3_2" = "Allgemeinen Geschäftsbedingungen von Meopin unterliegt, und diese respektiert.";
+"keyRVW5HerebyDeclare4_1" = "mit der Erhebung und Weiterverarbeitung meiner persönlichen Daten seitens Meopin gemäss den ";
+"keyRVW5HerebyDeclare4_2" = "Datenschutz-.";
+"keyRVW5HerebyDeclare4_3" = " und ";
+"keyRVW5HerebyDeclare4_4" = "Privatspäre";
+"keyRVW5HerebyDeclare4_5" = " Bestimmungen, die auf die Plattform anwendbar sind.";
+"keyRVW5SubmitButton" = "Bewertung einreichen";
+"keyRVW5GenderMsg1" = "Bitte Geschlecht auswählen.";
+"keyRVW5AgeMsg1" = "Bitte Alter auswählen.";
+"keyRVW5AnonymouslyMsg1" = "Bitte wählen Sie eine Option für die Veröffentlichung der Bewertung aus.";
+"keyRVW5HereByDeclareMsg1" = "Bitte wählen Sie eine Option für die Erklärung aus.";
+
+//Write Review Step
+"keyRVW6ThankYou" = "Danke!";
+"keyRVW6Moderation" = "Nach einer Überprüfung wird Ihre Bewertung auf der Profilseite des Anbieters einsehbar sein.";
+"keyRVW6OverallScore" = "Gesamtpunktzahl";
+"keyRVW6ReturnHome" = "Nach Home zurückgehen";
+
+//My Review
+"keyMRTitle" = "Meine Bewertung";
+"keyMRNoReviewMsg1" = "Keine Bewertungen!";
+"keyMRGlobalRating" = "Globales Rating";
+
+//Review Detail
+"keyRDTitle" = "Bewertungsdetails";
+"keyRDAnswer" = "Antworten:";
+"keyRDNoteFor" = "Hinweis für";
+
+"keyAppointmentTitle" = "Termin";
+
+//Inbox Section
+"keyIBXTTFAccept" = "";
+"keyIBXTTFModify" = "";
+"keyIBXTTFCreate" = "";
+"keyIBXTTFRegister" = "";
+
+
+
+/////////////////*************** NewLanguage Locally Managed ***************/////////////////
+"KeyProfessionalInfo" = "Professionelle Info";
+"KeyGallery" = "Galerie";
+"KeyReviews" = "Überprüfung";
+"KeySelectDate" = "Wählen Sie Startdatum";
+
+//Filter Screen Keys
+"KeyFilterLookingFor" = "Wonach suchen Sie?";
+"KeyFilterSpeciality" = "Spezialität wählen";
+"KeyFilterCountryCity" = "Land/Stadt";
+"KeyFilterAppmtDate" = "Termin";
+"KeyFilterOnlineAppmt" = "Online-Termin anbieten";
+"KeyFilterLocationDist" = "Ort Entfernung";
+"KeyFilterSpokenLan" = "Gesprochene Sprache";
+"KeyFilterGlobleRating" = "Globales Rating";
+"KeyFilterGender" = "Geschlecht";
+"KeyFilterProfilePics" = "Profilbild";
+
+"KeyFilterSelect" = "Wählen";
+"KeyFilterNone" = "Keiner";
+"KeyFilterNo" = "Nein";
+"KeyFilterBoth" = "Beide";
+
+
+// New Key For Blog Titile
+"KeyBlogTitleHeader" = "Blog";
+"KeyBlogDetailTitleHeader" = "Blog-Detail";
+
+"KeyBlogTitleLatestPost" = "Neueste Beiträge";
+"KeyBlogTitleCategoriesTitle" = "Blog Kategorien";
+"KeyBlogTitleMostViewedTitle" = "Meist gesehener Beitrag";
+"KeyBlogTitleSearchPostTitle" = "Beitrag suchen";
+"KeyBlogTitleFavoriteProviderList" = "Lieblingsanbieterliste";
+"KeyBlogTitleInbox" = "Posteingang";
+
+
+// New Key For Blog Titile
+"KeyBlogTitleLatestPost" = "Neueste Beiträge";
+"KeyBlogTitleCategories" = "Kategorien";
+"KeyBlogTitleMostViewed" = "Am häufigsten gesehen";
+"KeyBlogTitleSearchPost" = "Beitrag suchen";
+
+
+//login remaining
+"keyLoginPatient" = "Patient";
+"keyLoginProvider" = "Dienstleister";
+"keyGlobalRating" = "Globale Bewertungen";
+"keyLocationDistance" = "Ort Entfernung";
+"keyResultVarification" = "Überprüfung";
+"KeyTextSearch" = "Suche";
+
+"KeyTextMale" = "Männlich";
+"KeyTextFemale" = "Weiblich";
+"KeyTextBoth" = "Beide";
+

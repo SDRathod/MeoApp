@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12118" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina3_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Meopin_TOPS.ttf">
+            <string>Meopin_TOPS</string>
+        </array>
+        <array key="SourceSansPro-Bold.ttf">
+            <string>SourceSansPro-Bold</string>
+        </array>
+        <array key="SourceSansPro-SemiBold.ttf">
+            <string>SourceSansPro-SemiBold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ForgotPwdVC" customModule="Meopin" customModuleProvider="target">
+            <connections>
+                <outlet property="btnBack" destination="wvc-mM-AJH" id="8mL-SD-pSN"/>
+                <outlet property="btnNext" destination="1Qz-RJ-mAe" id="OPh-LY-mJZ"/>
+                <outlet property="btnNextYConst" destination="qDN-5a-PWb" id="5lo-dR-ty1"/>
+                <outlet property="lblForgotTitle" destination="uAh-2l-xpC" id="6A2-Tc-nFc"/>
+                <outlet property="lblMeopin" destination="HZB-XC-lsV" id="VWO-Mm-gAC"/>
+                <outlet property="lblMeopinYConst" destination="TTn-TJ-w70" id="1Tb-iQ-WWc"/>
+                <outlet property="lblSubTitle" destination="p8j-09-oZZ" id="wQ6-mH-AHB"/>
+                <outlet property="txtPhone" destination="dZd-bK-Xl1" id="CR3-35-qgJ"/>
+                <outlet property="view" destination="V4O-NF-GId" id="ot8-MT-6GC"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="V4O-NF-GId">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PMh-Pd-ARV">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="52"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wvc-mM-AJH">
+                            <rect key="frame" x="9" y="11" width="30" height="30"/>
+                            <constraints>
+                                <constraint firstAttribute="width" secondItem="wvc-mM-AJH" secondAttribute="height" multiplier="1:1" id="AQt-9H-NNi"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="Meopin_TOPS" family="Meopin_TOPS" pointSize="17.5"/>
+                            <state key="normal" title="">
+                                <color key="titleColor" red="0.1647058824" green="0.32156862749999998" blue="0.52549019610000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                            <connections>
+                                <action selector="btnBackClick:" destination="-1" eventType="touchUpInside" id="hny-1p-l7B"/>
+                            </connections>
+                        </button>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" placeholderIntrinsicWidth="280" placeholderIntrinsicHeight="30" text="Forgot password" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="uAh-2l-xpC">
+                            <rect key="frame" x="50" y="10" width="220" height="30"/>
+                            <fontDescription key="fontDescription" name="SourceSansPro-SemiBold" family="Source Sans Pro" pointSize="18"/>
+                            <color key="textColor" red="0.1647058824" green="0.32156862749999998" blue="0.52549019610000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" red="0.1647058824" green="0.32156862749999998" blue="0.52549019610000003" alpha="0.0" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstItem="wvc-mM-AJH" firstAttribute="leading" secondItem="PMh-Pd-ARV" secondAttribute="leading" constant="9" id="33u-de-rTQ"/>
+                        <constraint firstAttribute="bottom" secondItem="uAh-2l-xpC" secondAttribute="bottom" constant="12" id="5Rt-1o-Xge"/>
+                        <constraint firstItem="uAh-2l-xpC" firstAttribute="top" secondItem="PMh-Pd-ARV" secondAttribute="top" constant="10" id="YFZ-Kh-AG6"/>
+                        <constraint firstAttribute="bottom" secondItem="wvc-mM-AJH" secondAttribute="bottom" constant="11" id="gcJ-5Y-eyC"/>
+                        <constraint firstAttribute="trailing" secondItem="uAh-2l-xpC" secondAttribute="trailing" constant="50" id="iN0-TQ-oOa"/>
+                        <constraint firstAttribute="width" secondItem="PMh-Pd-ARV" secondAttribute="height" multiplier="16:3" constant="42.666666666666686" id="krO-9d-vee"/>
+                        <constraint firstItem="wvc-mM-AJH" firstAttribute="top" secondItem="PMh-Pd-ARV" secondAttribute="top" constant="11" id="qe1-gG-pfo"/>
+                        <constraint firstItem="uAh-2l-xpC" firstAttribute="leading" secondItem="PMh-Pd-ARV" secondAttribute="leading" constant="50" id="xCf-uf-b3d"/>
+                    </constraints>
+                </view>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" verticalCompressionResistancePriority="751" placeholderIntrinsicWidth="200" placeholderIntrinsicHeight="45" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HZB-XC-lsV">
+                    <rect key="frame" x="60" y="76" width="200" height="45"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="HZB-XC-lsV" secondAttribute="height" multiplier="40:9" id="XsF-dY-g1z"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="Meopin_TOPS" family="Meopin_TOPS" pointSize="36"/>
+                    <color key="textColor" red="0.1647058824" green="0.32156862749999998" blue="0.52549019610000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" placeholderIntrinsicWidth="280" placeholderIntrinsicHeight="33" text="To create a new password, please enter here your mobile number used during registration." textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="p8j-09-oZZ">
+                    <rect key="frame" x="20" y="142" width="280" height="33"/>
+                    <fontDescription key="fontDescription" name="SourceSansPro-SemiBold" family="Source Sans Pro" pointSize="12.5"/>
+                    <color key="textColor" red="0.4941176471" green="0.63529411759999999" blue="0.81960784310000001" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Osg-4d-keh">
+                    <rect key="frame" x="0.0" y="215" width="320" height="143"/>
+                    <subviews>
+                        <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Enter registered mobile number" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="dZd-bK-Xl1">
+                            <rect key="frame" x="15" y="16.5" width="290" height="33"/>
+                            <constraints>
+                                <constraint firstAttribute="width" secondItem="dZd-bK-Xl1" secondAttribute="height" multiplier="290:33" id="ODa-wY-9AI"/>
+                            </constraints>
+                            <color key="textColor" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="calibratedRGB"/>
+                            <fontDescription key="fontDescription" name="SourceSansPro-SemiBold" family="Source Sans Pro" pointSize="13.199999809265137"/>
+                            <textInputTraits key="textInputTraits" keyboardType="phonePad" returnKeyType="done"/>
+                            <connections>
+                                <outlet property="delegate" destination="-1" id="ysZ-G1-QRY"/>
+                            </connections>
+                        </textField>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Qz-RJ-mAe">
+                            <rect key="frame" x="15" y="65" width="290" height="39"/>
+                            <color key="backgroundColor" red="0.35294117650000001" green="0.65490196079999996" blue="0.23529411759999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="width" secondItem="1Qz-RJ-mAe" secondAttribute="height" multiplier="290:39" id="uQJ-Nw-el0"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="SourceSansPro-Bold" family="Source Sans Pro" pointSize="14"/>
+                            <state key="normal" title="LOGIN"/>
+                            <connections>
+                                <action selector="btnNextClick:" destination="-1" eventType="touchUpInside" id="bO6-mQ-j6X"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="dZd-bK-Xl1" firstAttribute="leading" secondItem="Osg-4d-keh" secondAttribute="leading" constant="15" id="0IS-Vm-QHx"/>
+                        <constraint firstAttribute="trailing" secondItem="dZd-bK-Xl1" secondAttribute="trailing" constant="15" id="EaF-xL-2if"/>
+                        <constraint firstItem="1Qz-RJ-mAe" firstAttribute="leading" secondItem="Osg-4d-keh" secondAttribute="leading" constant="15" id="TOK-5l-fj8"/>
+                        <constraint firstItem="dZd-bK-Xl1" firstAttribute="top" secondItem="Osg-4d-keh" secondAttribute="top" constant="16.5" id="e0i-P8-UQL"/>
+                        <constraint firstItem="1Qz-RJ-mAe" firstAttribute="top" secondItem="dZd-bK-Xl1" secondAttribute="bottom" constant="15.5" id="qDN-5a-PWb"/>
+                        <constraint firstAttribute="trailing" secondItem="1Qz-RJ-mAe" secondAttribute="trailing" constant="15" id="sCK-X5-fM2"/>
+                        <constraint firstAttribute="width" secondItem="Osg-4d-keh" secondAttribute="height" multiplier="320:143" id="yaU-0c-Arz"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="PMh-Pd-ARV" secondAttribute="trailing" id="2XH-dr-gv4"/>
+                <constraint firstItem="Osg-4d-keh" firstAttribute="top" secondItem="p8j-09-oZZ" secondAttribute="bottom" constant="40" id="LZ5-rr-lDG"/>
+                <constraint firstItem="p8j-09-oZZ" firstAttribute="top" secondItem="HZB-XC-lsV" secondAttribute="bottom" constant="21" id="MyD-as-q8w"/>
+                <constraint firstItem="Osg-4d-keh" firstAttribute="leading" secondItem="V4O-NF-GId" secondAttribute="leading" id="N1K-S1-A8j"/>
+                <constraint firstItem="HZB-XC-lsV" firstAttribute="leading" secondItem="V4O-NF-GId" secondAttribute="leading" constant="60" id="NTD-L4-u5C"/>
+                <constraint firstAttribute="trailing" secondItem="p8j-09-oZZ" secondAttribute="trailing" constant="20" id="OGn-QK-GaX"/>
+                <constraint firstItem="HZB-XC-lsV" firstAttribute="top" secondItem="PMh-Pd-ARV" secondAttribute="bottom" constant="24" id="TTn-TJ-w70"/>
+                <constraint firstAttribute="trailing" secondItem="Osg-4d-keh" secondAttribute="trailing" id="dI6-To-cDZ"/>
+                <constraint firstItem="PMh-Pd-ARV" firstAttribute="top" secondItem="V4O-NF-GId" secondAttribute="top" id="epr-3I-LLm"/>
+                <constraint firstItem="PMh-Pd-ARV" firstAttribute="leading" secondItem="V4O-NF-GId" secondAttribute="leading" id="fzr-KF-sKI"/>
+                <constraint firstItem="p8j-09-oZZ" firstAttribute="leading" secondItem="V4O-NF-GId" secondAttribute="leading" constant="20" id="lbb-2s-aW1"/>
+                <constraint firstAttribute="trailing" secondItem="HZB-XC-lsV" secondAttribute="trailing" constant="60" id="t5k-m9-MIg"/>
+            </constraints>
+            <point key="canvasLocation" x="-379" y="81"/>
+        </view>
+    </objects>
+</document>

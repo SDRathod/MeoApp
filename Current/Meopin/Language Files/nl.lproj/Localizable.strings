@@ -1,0 +1,506 @@
+/*
+ Localizable.strings
+ Peepons
+ 
+ Created by Dhara
+ Copyright (c) 2014 Dhara. All rights reserved.
+ */
+
+
+//Language
+"keyLangen" = "English";
+"keyLangnl" = "Nederlands";
+"keyLangfr" = "français";
+"keyLangde" = "Deutsche";
+
+//common messages
+"keyInternetMsg" = "Oops, we kunnen Meopin niet bereiken. Controleer je verbinding en probeer opnieuw.";
+"KeyUnknowError" = "er is iets fout gegaan. probeer het opnieuw.";
+
+"keyYes" = "Ja";
+"keyNo" = "Nee";
+"keyOk" = "Ok";
+"keyCancel" = "Annuleer";
+"keyDone" = "Gedaan";
+"keySave" = "Bewaren";
+"keyComingSoon" = "Binnenkort beschikbaar!";
+"keyBuildNo" = "Bouwen:";
+"keyAppUpgradeMsgTitle" = "Nieuwe versie beschikbaar";
+"keyAppUpgradeMsg" = "Er is een nieuwere versie beschikbaar om te downloaden. Wek de app bij door naar de Apple Store te gaan";
+"keyAppUpgradeUpdate" = "Bijwerken";
+
+//Photo
+"keyTakePhoto" = "Maak een foto";
+"keyChoosePhoto" = "Kies een foto";
+"keyRemovePhoto" = "Verwijder een foto";
+"keyNoCamera" = "Camera is niet beschikbaar.";
+
+//Logout
+"keyLogoutMsg" = "Weet je zeker dat je wilt uitloggen?";
+
+//Register Screen
+"KeyRegister" = "Registreren";
+"KeyRegisterContent" = "hier als een patiënt. Registratie is nodig \n om providers te beoordelen en afspraken te maken.";
+"KeySalutation" = "Begroeting";
+"KeyTitle" = "Titel";
+"KeyFirstName" = "Voornaam";
+"KeyLastName" = "Achternaam";
+"KeyUserName" = "Gebruikersnaam";
+"KeyEmailAddress" = "E-mail";
+"KeyMobileNo" = "Ex. +(Land code)(Mobiel nummer)";
+"KeyPassword" = "Kies een wachtwoord";
+"KeyPasswordCon" = "Bevestig je wachtwoord";
+"KeyPolicy" = "Ik accepteer de privacybeleid van Meopin.";
+"KeylblTerms" = "Ik accepteer de algemene voorwaarden van Meopin";
+"KeyLogIN" = "Al geregistreerd? Log in";
+"keyRegisterTitile" = "Ik ben een nieuwe gebruiker";
+
+"keyRVSalutation" = "Vul begroeting in.";
+"keyRVTitle" = "Vul titel in.";
+"keyRVFirstName" = "Vul voornaam in.";
+"keyRVLastName" = "Vul achternaam in.";
+"keyRVUserName" = "Vul gebruikersnaam in.";
+"keyRVMobileNo" = "Vul mobiel nummer in.";
+
+"keyRVEmailMsg1" = "Vul e-mail in.";
+"keyRVEmailMsg2" = "Vul geldige e-mail in.";
+
+"keyRVPassword" = "Kies een wachtwoord.";
+"keyRVPasswordMsg2" = "Uw wachtwoord moet uit 6 tekens bestaan en minstens 2 hoofdletters, één kleine letter en één cijfer bevatten.";
+
+"keyRVConfPassword" = "Bevestig je wachtwoord.";
+"keyRVConfPassword1" = "Wachtwoord en bevestigd wachtwoord komen niet overeen.";
+"keyRVPrivacy" = "Accepteer privacybeleid van Meopin.";
+"keyRVTermCondition" = "Accepteer alstublieft de algemene voorwaarden van Meopin.";
+
+// Register Varification Screen
+"KeyRegVVarification" = "Verificatie";
+"KeyRegVVarificationMsg" = "We hebben je  een sms met een code gestuurd naar je mobiele telefoon \n onder het nummer dat je hebt aangegeven \n tijdens het registreren.";
+"KeyRegVVarificationConfiMsg" = "Vul hier de \n 6 cijferige activeringscode in om uw registratie te voltooien";
+"KeyRegVVarificationCodeMsg" = "Vul hier de 6 cijferige activeringscode in.";
+"KeyRegVResendVarificationCode" = "Verzend verificatiecode opnieuw";
+"KeyRegVBtnSubmit" = "Voorleggen";
+"KeyRegVVarifyCodeMsg" = "U hebt een verkeerde activatiecode ingevoerd.";
+"KeyRegVVarificationCode" = "Vul hier de 6 cijferige activeringscode in.";
+
+//Register Success Screen
+"keyRegisterSuccessStatus" = "Bedankt";
+"keyRegisterSuccessMsgFirst" = "Uw registratieverzoek is ingediend bij Meopin.";
+"keyRegisterSuccessMsgMiddle" = "Zodra uw registratie door Meopin is geaccepteerd, ontvangt u een e-mail en ontvangt u uw toegangsgegevens.";
+"keyRegisterSuccessMsgLast" = "U kunt zoeken naar en zoeken naar zorgaanbieders en \n onze gezondheidsgerelateerde blogartikelen lezen, \n zonder enige registratie.";
+
+"keyRegisterSuccessSearchProvider" = "Zoek naar een verzorger";
+"keyRegisterSuccessMeopinBlog" = "Ga naar Meopin blog";
+
+//Register Failer Screen
+"keyRegisterFailStatus" = "Oops! Geen match";
+"keyRegisterFailMsg" = "Uw telefoonnummerverificatie is mislukt.";
+"keyRegisterFailScreenMsg" = "De eerste wereldwijde en digitale portal om \nzorgaanbieders te vinden en beoordelen.";
+"keyRegisterFailMsgCode" = "Stuur me een nieuwe activeringscode";
+
+//Provider Edit Profile
+"KeyPEPSalutation" = "Begroeting";
+"KeyPEPTitle" = "Titel";
+"KeyPEPFirstName" = "Voornaam";
+"KeyPEPLastName" = "Achternaam";
+"KeyPEPEmailAddress" = "E-mail";
+"KeyPEPPracticeName" = "Oefen naam";
+"KeyPEPStreet" = "Straat";
+"KeyPEPNo" = "Nummer";
+"KeyPEPCity" = "Stad";
+"KeyPEPCountry" = "Land";
+"KeyPEPWebsite" = "Website";
+"KeyPEPFax" = "Fax";
+"KeyPEPPassword" = "Wachtwoord";
+
+"KeyPEPEditProfile" = "Bewerk profiel";
+"KeyPEPChangePassword" = "Verander wachtwoord";
+"KeyPEPClose" = "X";
+"KeyPEPSave" = "Bewaren";
+
+//Provider Screen
+"KeyPSPracticeName" = "Vul oefen naam in.";
+"KeyPSStreet" = "Vul straat in.";
+"KeyPSNo" = "Vul nummer in.";
+"KeyPSCity" = "Selecteer stad.";
+"KeyPSCountry" = "Selecteer land.";
+"KeyPSWebsite" = "Vul website in.";
+"KeyPSFax" = "Vul fax in.";
+
+//Home Screen
+"keyHomeWelcomeMsg" = "Welkom";
+"keyHomeLogin" = "   LOGIN";
+"keyHomeSubTitle" = "De eerste wereldwijde en digitale portal om \nzorgaanbieders te vinden en beoordelen.";
+"keyHomeSearch" = "Zoeken";
+"keyHomeSearchSub" = "Om uw zorgverleners te vinden.";
+"keyHomeWriteReview" = "Schrijf een recensie";
+"keyHomeWriteReviewSub" = "En beoordeel uw leveranciers.";
+"keyHomeMakeApp" = "Een afspraak maken";
+"keyHomeMakeAppSub" = "Met uw voorkeursleveranciers.";
+"keyHomeReadArticle" = "Medische artikelen lezen";
+"keyHomeReadArticleSub" = "In onze blog.";
+"keyHomeYouProvider" = "Ik ben een leverancier";
+"keyHomeYouPatient" = "Ik ben een patient";
+"keyHomeButton" = "Home";
+"keyHomeAboutUs" = "Over ons";
+"keyHomeContact" = "Contact met ons opneemen";
+"keyHomeOfferedIn" = "Meopin aangeboden in:";
+
+//Change Password
+"keyCPOldPassword" = "Vul een oud wachtwoord in";
+"keyCPNewPassword" = "Vul een nieuw wachtwoord in";
+"keyCPConfPassword" = "Bevestig wachtwoord";
+"keyCPSavePassword" = "Wachtwoord bewaren";
+"keyCPVNewPassword" = "Please enter new password.";
+"keyCPVOldPassword" = "Please enter old password.";
+"keyCPVConfPassword" = "Please enter confirm password.";
+"keyCPPasswordMsg2" = "Uw wachtwoord moet uit 6 tekens bestaan en minstens 2 hoofdletters, één kleine letter en één cijfer bevatten.";
+
+//Login Screen
+"keyLILoginTitle" = "Inloggen als";
+"keyLIEmail" = "E-mail";
+"keyLIPassword" = "Wachtwoord";
+"keyLIForPwd" = "Wachtwoord vergeten?";
+"keyLILogin" = "Log in";
+"keyLINewUser" = "Ik ben een nieuwe gebruiker";
+"keyLIEmailMsg1" = "Vul uw e-mailadres in.";
+"keyLIEmailMsg2" = "Vul een geltig e-mailadres in.";
+"keyLIPasswordMsg1" = "Vul uw wachtwoord in.";
+"keyLIPasswordMsg2" = "Uw wachtwoord moet uit 6 tekens bestaan en minstens 2 hoofdletters, één kleine letter en één cijfer bevatten.";
+
+//Forgot Password
+"keyFPForgotTitle" = "Wachtwoord vergeten";
+"keyFPSubTitle" = "Voer hier uw mobiele nummer in dat werd gebruikt tijdens de registratie \nom een nieuw wachtwoord aan te maken.";
+"keyFPMobile" = "Ex. +(Land Code)(Mobiel nummer)";
+"keyFPNext" = "Volgende";
+"keyFPMobileMsg1" = "Voer uw geregistreerde mobiele nummer in.";
+"keyFPMobileMsg2" = "Voer uw geregistreerde geldig mobiele nummer in.";
+"keyFPVerificationTitle" = "Verificatie";
+"keyFPVerifSubTitle" = "Vul hier de 6 cijferige activeringscode in.";
+"keyFPVerifCode" = "Vul hier de 6 cijferige activeringscode in";
+"keyFPResendCode" = "Verzend verificatiecode opnieuw";
+"keyFPVerify" = "Verifiëren";
+"keyFPCodeMsg1" = "Vul hier de 6 cijferige activeringscode in.";
+"keyFPCreatePwdTitle" = "Maak een nieuw wachtwoord aan";
+"keyFPCreatePwdSubTitle" = "Maak een nieuw wachtwoord aan voor je account.";
+"keyFPNewPassword" = "Nieuw wachtwoord";
+"keyFPConfirmaPassword" = "Bevestig wachtwoord";
+"keyFPSubmit" = "Voorleggen";
+"keyFPNewPwdMsg1" = "Vul uw nieuw wachtwoord in.";
+"keyFPNewPwdMsg2" = "Uw wachtwoord moet uit 6 tekens bestaan en minstens 2 hoofdletters, één kleine letter en één cijfer bevatten.";
+"keyFPConfPwdMsg1" = "Bevestig wachtwoord";
+"keyFPConfPwdMsg2" = "Nieuw wachtwoord en bevestigt wachtwoord moeten hetzelfde zijn.";
+
+//Patient Profile
+"keyPaPMyProfile" = "Mijn profiel";
+"keyPaPUpload" = ""; //\nUploaden
+"keyPaPSalutation" = "Begroeting";
+"keyPaPTitle" = "Titel";
+"keyPaPFirstName" = "Voornaam";
+"keyPaPLastName" = "Acternaam";
+"keyPaPUsername" = "Gebruikersnaam";
+"keyPaPE-mail" = "E-mail";
+"keyPaPPhone Number" = "Mobiel nummer";
+"keyPaPSave" = "Besparen & Verifiëren";
+"keyPaPEditDetails" = "Details bewerken";
+"keyPaPChangePassword" = "Verander wachtwoord";
+"keyPaPUserNameInfo" = "";
+"keyPaPSalutationMsg1" = "Vul begroeting in.";
+"keyPaPSalutationMsg2" = "Vul geldig begroeting in.";
+"keyPaPTitleMsg1" = "Vul titel in.";
+"keyPaPTitleMsg2" = "Vul geldig titel in.";
+"keyPaPFirstNameMsg1" = "Vul voornaam in.";
+"keyPaPFirstNameMsg2" = "Vul geldig voornaam in.";
+"keyPaPLastName1" = "Vul achternaam in.";
+"keyPaPLastName2" = "Vul geldig achternaam in.";
+"keyPaPUsernameMsg1" = "Vul gebruikersnaam in.";
+"keyPaPUsernameMsg2" = "Vul geldig gebruikersnaam in.";
+"keyPaPE-mailMsg1" = "Vul e-mail in.";
+"keyPaPE-mailMsg2" = "Vul geldig e-mail in.";
+"keyPaPPhoneNumberMsg1" = "Vul mobiel nummer in.";
+"keyPaPPhoneNumberMsg2" = "Vul geldig mobiel nummer in.";
+"keyPaPUserInfoToolTip" = "Om ervoor te zorgen dat uw anbiederbeoordelingen anoniem worden gepubliceerd, moet u hier een gebruikersnaam kiezen die wordt gepubliceerd op basis van uw beoordeling.";
+"keyPaPPasswordPopToolTip" = "Uw wachtwoord moet uit 6 tekens bestaan en minstens 2 hoofdletters, één kleine letter en één cijfer bevatten.";
+"keyPaPProfilePicSizeMsg1" = "Selecteer een afbeelding van kleiner dan 2048 kB.";
+
+//Patient Profile Verification
+"keyPaPVerificationTitle" = "Verificatie";
+"keyPaPVerifSubTitle" = "Vul hier de 6 cijferige activeringscode in.";
+"keyPaPVerifCode" = "Vul hier de 6 cijferige activeringscode in.";
+"keyPaPResendCode" = "Verzend verificatiecode opnieuw";
+"keyPaPVerify" = "Verifiëren";
+"keyPaPCodeMsg1" = "Vul hier de 6 cijferige activeringscode in.";
+
+//Provider Scheduling
+"keyPSMonday" = "Maandag";
+"keyPSTuesday" = "Dinsdag";
+"keyPSWednesday" = "Woensdag";
+"keyPSThursday" = "Donderdag";
+"keyPSFriday" = "Vrijdag";
+"keyPSSaturday" = "Zaterdag";
+"keyPSSunday" = "Zondag";
+"keyPSOnLeave" = "Met verlof";
+"keyPSSpecialRules" = "Speciale regels";
+"keyPSSelect" = "Selecteer";
+"keyPSAppointment" = "Mijn afspraak";
+"keyPSConfiguration" = "Configuratie";
+"keyPSTimeSlots" = "Tijdvakken";
+"keyPSFrom" = "Van";
+"keyPSTo" = "Tot";
+"keyPSMins" = "minuten";
+"keyPSHour" = "uur";
+"keyPSHours" = "uur";
+"keyPSCustom" = "Aanpassen";
+"keyPSNone" = "Geen";
+"keyPSOnDays" = "Dagen";
+"keyPSOnDay" = "Dag";
+"keyPSOnToSmall" = "tot";
+"keyPSOnLeaveCaps" = "Met verlof";
+"keyPSDelete" = "Verwijderen";
+"keyPSDeleteMsg1" = "Weet je zeker dat je verlof wilt verwijderen?";
+"keyPSDateMsg1" = "Vanaf datum moet groter zijn dan of gelijk aan de huidige datum.";
+"keyPSDateMsg2" = "Tot op heden moet groter zijn dan of gelijk aan vanaf datum.";
+"keyPSSpcRuleTitle" = "Speciale regels van elke maand";
+"keyPSSpcRuleHalfTitle" = "Speciale regels";
+"keyPSRuleSpeDay" = "Speciale dag";
+"keyPSRuleOffDay" = "Vrije dag";
+"keyPSOfEveryMonth" = "Van elke maand";
+"keyPSSpecialRule" = "Speciale regel";
+"keyPSDeleteSpeRuleMsg1" = "Weet je zeker dat je de speciale regel wilt verwijderen?";
+"keyPSHasSpecialTime" = "heeft speciale tijd";
+"keyPSWeek" = "Week";
+"keyPSRuleDayMsg1" = "Selecteer een waarde voor 'Week'.";
+"keyPSRuleDateMsg1" = "Selecteer een waarde voor 'Dag'.";
+"keyPSRuleTypeMsg1" = "Selecteer een waarde voor 'Van elke maand'.";
+"keyPSRuleTimeMsg1" = "Naar tijd zou groter moeten zijn dan uit de tijd.";
+"keyPSRuleTimeMsg2" = "Tweede ploegentiming al opgenomen in de eerste dienst.";
+"keyPSReset" = "Reset";
+"keyPSApply&Search" = "Breng & Search";
+"keyPSRepeat" = "Herhaling";
+"keyPSAccept" = "Accepteren";
+"keyPSReject" = "Afwijzen";
+"keyPSModify" = "Wijzigen";
+"keyPSView" = "Zien";
+"keyPSWaitingForAccept" = "Wachten op acceptatie";
+"keyPSApproveAlertMsg1" = "Weet je zeker dat je deze afspraak wilt goedkeuren?";
+"keyPSRejectAppointment" = "Afspraak afwijzen";
+"keyPSRejectReason" = "Reden voor afwijzing?";
+
+//Provider Search
+"keyPSearchPlaceHolder" = "Zoeken";
+"keyPSearchTitle" = "Aanbieder zoeken";
+"keyPSearchReason" = "Welk type zorgaanbieder heeft u nodig?";
+"keyPSearchSpeciality" = "ex. Specialiteit, naam van de zorgaanbieder, dokter, ziekenhuis, trefwoorden..";
+"keyPSearchViewMap" = "  Bekijk de kaart met aanbiedingen";
+"keyPSearchViewListing" = "  Bekijk resultaten van aanbiedingen";
+"keyPSearch" = "Zoeken";
+"keyPSearchNeedMore" = "Heb meer nodig? Gebruik geavanceerd zoeke";
+"KeyBtnSelectIcon" = "";
+"keyListIcon" = "";
+"keyMapIcon" = "";
+"keySearchResult" = "Zoek resultaten";
+
+//Slide Menu
+"keySlMyMeopin" = "Mijn Meopin";
+"keySlHome" = "Home";
+"keySlDashboard" = "Dashboard";
+"keySlSearchProvider" = "Aanbieder zoeken";
+"keySlMakeAppointment" = "Maak een afspraak";
+"keySlMyAppointments" = "Mijn afspraaken";
+"keySlWriteReview" = "Schrijf een beoordeling";
+"keySlInbox" = "Inbox";
+"keySlMyReviews" = "Mijn beoordelingen";
+"keySlMyFavorites" = "Mijn favorieten";
+"keySlHelpDesk" = "Helpdesk";
+"keySlAppointmentSettings" = "Afspraak instellingen";
+"keySlAccountSettings" = "Account & Instellingen";
+"keySlReadMedicalArticles" = "Lees medische artikelen";
+"keySlLogOut" = "Uitloggen";
+"keySlNew" = "nieuwe";
+
+//Create Appointment
+"keyCAMakeAppointment" = "Maak een afspraak";
+"keyReasonForAppointment" = "Reden voor de afspraak";
+"keyConfirmBooking" = "Bevestig boeking";
+"keyPersonalMessage" = "Persoonlijk bericht aan anbieder (max. 200 tekens)";
+
+
+/////////////////*************** NEW MODULE'S KEYS ***************/////////////////
+
+"keyReasonAlert" = "Voer alstublieft bericht in";
+"keyReasonSelectAlert" = "Selecteer de reden voor de afspraak";
+"keyAppointmentRequest" = "Uw aanmelding verzoek details";
+"keyGoAppointmentDetail" = "Ga naar afspraak detail";
+"keyRequestSentMsg" = "Het afspraakverzoek \n is verzonden naar uw provider \n voor acceptatie.";
+
+"keyRequestSentMsg1" = "Uw afspraakverzoek moet door de \n provider worden geaccepteerd. We laten het weten zodra de provider uw verzoek heeft \n geaccepteerd.";
+"keyReasonForChange" = "Reden voor verandering";
+"keySelectedAppontmentTitle" = "Selecteer afspraaktijd";
+"keySelectedAppontmentDateAlert" = " Verzoek gewijzigd naar";
+"keySelectedAppontmentDateAlert1" = " Klik op 'VERZOCHT VERZENDEN' om te voltooien";
+
+"KeyPersonalMessageSmall" = "Persoonlijk bericht";
+"keyNoRecord" = "Geen verslagen gevonden";
+"keyNoMobileNoAlert" = "Mobiel nummer is niet beschikbaar";
+"keyNoEmailAlert" = "E-mailadres is niet beschikbaar";
+"keyDeviceEmailNotSupportAlert" = "Yje apparaat kan geen e-mail verzenden. Controleer de e-mailconfiguratie en probeer het opnieuw.";
+
+"keyRemoveFavorite" = "eet u zeker dat u het uit de favorietenlijst wilt verwijderen??";
+"keyProposNewTime" = "Stel een nieuwe tijd voor";
+"KeyAuthor" = "Auteur";
+
+//Dashboard
+"keyDasTitle" = "Dashboard";
+"keyDasToday" = "De benoeming van vandaag";
+"keyDasWaiting" = "Wachten op acceptie";
+"keyDasMyAppointment" = "Mijn afspraak";
+"keyDasMyReview" = "Mijn beoordelingen";
+"keyDasHelpDesk" = "Help-Desk";
+"keyDasNoAppointment" = "Er zijn geen afspraken gevonden!";
+
+//Pull to refresh screen
+"keyPRTLoading" = "Het laden...";
+"keyPRTReleaseRefresh" = "Laat los om te verversen...";
+"keyPRTDownRefresh" = "Trek naar beneden om te vernieuwen...";
+
+//Review Section
+"keyRVWTipsForYou" = "Tips voor jou";
+"keyRVWTipsSubTitle" = "We hebben vier tips om uw beoordeling zo waardevol mogelijk te maken voor andere patiënten die de beste dienstverlener zoeken.";
+"keyRVWTipsPoints" = "1. Breng uw eigen opinie onder woorden! Schrijf liever  \"Ik vind dat de arts veel te weinig tijd nam.\" dan \"De arts besteedde maar 2 minuten aan me.”. Uw persoonlijke mening wordt beschermd door fundamentele wetten. Feiten moeten in geval van twijfel echter bewezen worden, wat niet altijd mogelijk is.\n\n2. Scheer niet alles over een kam ! geef een genuanceerd oordeel. Differentieer uw score in elk van de afzonderlijke categorieën, ongeacht uw algehele indruk. Als u bijvoorbeeld ontevreden bent over de uitleg en de behandeling, kan de arts toch vriendelijk zijn geweest. Vaak wordt de geloofwaardigheid van alle categorieën beïnvloed door de score 1 of 6. Probeer ook om verschillende aspecten van uw bezoek aan de dienstverlener te beschrijven (bijvoorbeeld wachttijd, afspraak, behandeling ...). Kies niet ongenuanceerd Alleen score 6 of score 1. Beoordeel elke categorie afzonderlijk op basis van uw ervaring.\n\n3. Schrijf geen beledigende taal! Schrijf niet  \"De arts is een volslagen idioot.\" Uw beoordeling dient evenwichtig en redelijk te zijn. Vergewis u ervan dat uw kritiek niet beledigend is of zaken veralgemeniseert. Geniepige opmerkingen worden niet geaccepteerd!\n\n4. Ga er niet vanuit dat u eender wat kunt schrijven omdat uw opmerking anoniem gepubliceerd wordt. U mag de mogelijkheid om anoniem te publiceren niet uitbuiten om u overdreven negatief te uiten of onredelijke opmerkingen te maken. Meopin bewaart de gegevens in overeenstemming met ons privacybeleid. We kunnen door een gerechtelijke instantie verplicht worden om uw identiteit bekend te maken, bijvoorbeeld om verstoring of een misdrijf te behandelen of om de rechten en vrijheid van anderen te beschermen.";
+"keyRVWReviewTitle" = "Recensie titel";
+"keyRVWMyFeedback" = "Mijn feedback";
+"keyRVWVisitDate" = "Datum van bezoek";
+"keyRVWPrceedSteps" = "Ga naar e stappen";
+"keyRVWReviewTitleMsg1" = "Voer de recensie-titel in.";
+"keyRVWMyFeedbackMsg1" = "Voer alstublieft mijn feedback in.";
+"keyRVWSchoolNotes" = "Geef sterren alsjeblieft";
+"keyRVWScoreDetail" = "1 ster = slecht, 2 sterren = redelijk, \n3 sterren = gemiddeld, 4 sterren = goed, \n5 sterren = uitstekend";
+"keyRVWYourAnswer" = "Uw antwoord: ";
+"keyRVWScore1" = "Slecht";
+"keyRVWScore2" = "Redelijk";
+"keyRVWScore3" = "Gemiddeld";
+"keyRVWScore4" = "Goed";
+"keyRVWScore5" = "Uitstekend";
+"keyRVWMyScoreFor" = "Mijn score voor ";
+"keyRVWBasedNotes" = "Gebaseerd op opmerkingen hierboven verstrek";
+"keyRVWMeMessage1" = "Mijn bericht aan ";
+"keyRVWMeMessage2" = " op zijn / haar rating";
+"keyRVWYouLikeInParticular" = "Wat vond je in het bijzonder leuk? Wat meer?";
+"keyRVWNext" = "Volgende";
+"keyRVWYouLikeInParticularMsg1" = "Voer tekst in voor in het bijzonder.";
+"keyRVWRateMsg1" = "Voer tekst in voor in het bijzonder ";
+"keyRVWCheckMarkDetail" = "\"Klik aankruisvakje\" als u niet wilt antwoorden of als de vraag niet relevant is.";
+"keyRVWNoInformation" = "Geen informatie";
+"keyRVWNextAndFinalStep" = "Volgende en Eindstap :)";
+
+//Write Review Step5
+"keyRVW5Gender" = "Je geslacht";
+"keyRVW5GenderMan" = "Ik ben een man";
+"keyRVW5GenderWoman" = "Ik ben een vrouw";
+"keyRVW5Age" = "Mijn leeftijd";
+"keyRVW5Age1" = "< 25 jaar";
+"keyRVW5Age2" = "25 - 40 jaar";
+"keyRVW5Age3" = "40 - 55 jaar";
+"keyRVW5Age4" = "> 55 jaar";
+"keyRVW5PublishAnonymously" = "Ik wil graag dat mijn recensie anoniem wordt gepubliceerd";
+"keyRVW5AnonymouslyYes" = "Ja";
+"keyRVW5AnonymouslyNo" = "Nee, ik gebruik mijn gebruikersnaam";
+"keyRVW5AnonymouslyChangeIt" = "verander het";
+"keyRVW5AnonymouslyRecommend" = "Ik zou deze provider in het algemeen aanbevelen?";
+"keyRVW5IAgree" = "Ik ben het ermee eens dat andere geïnteresseerde patiënten mij vragen kunnen stellen over deze beoordeling of de provider in geval (ik blijf anoniem, en alle communicatie zal worden afgehandeld via Meopin)";
+"keyRVW5SubmitReview" = "Beoordeling versturen";
+"keyRVW5HerebyDeclare" = "Ik verklaar hierbij dat:";
+"keyRVW5HerebyDeclare1" = "Ik ben of word behandeld door deze dienstverlener of heb deze dienstverlener geconsulteerd / Ik heb een minderjarige begeleid tijdens een bezoek aan of van deze dienstverlener / Ik heb een persoon begeleid die deze dienstverlener vanwege ouderdom of ziekte niet kan bezoeken of ontvangen zonder begeleiding Mijn evaluatie is gebaseerd op mijn persoonlijke ervaring. ";
+"keyRVW5HerebyDeclare2" = "Ik onderhoud geen enkele persoonlijke of zakelijke relatie met deze dienstverlener, en ik ben geen werknemer of familielid van deze dienstverlener. Ik ben geen dienstverlener, agentschap of andere derde die door de dienstverlener is aangesteld om een beoordeling te publiceren. Ik heb dezelfde dienstverlener nog niet eerder beoordeeld. Ik heb/zal geen attentie of financieel voordeel ontvangen van de dienstverlener om deze beoordeling te publiceren.";
+"keyRVW5HerebyDeclare3_1" = "Ik ga formeel akkoord met het volgende Mijn beoordeling en evaluatie zijn onderhevig aan en in overeenstemming met de ";
+"keyRVW5HerebyDeclare3_2" = "algemene voorwaarden van Meopin.";
+"keyRVW5HerebyDeclare4_1" = "dat Meopin verzamelt en verwerkt mijn persoonlijke gegevens in overeenstemming met de bepalingen inzake ";
+"keyRVW5HerebyDeclare4_2" = "gegevensbeveiliging.";
+"keyRVW5HerebyDeclare4_3" = " en ";
+"keyRVW5HerebyDeclare4_4" = "het privacybeleid";
+"keyRVW5HerebyDeclare4_5" = " dat op het Platform van toepassing is.";
+"keyRVW5SubmitButton" = "Beoordeling versture";
+"keyRVW5GenderMsg1" = "Selecteer geslacht.";
+"keyRVW5AgeMsg1" = "Selecteer een leeftijd.";
+"keyRVW5AnonymouslyMsg1" = "Selecteer een optie voor het publiceren van beoordeling.";
+"keyRVW5HereByDeclareMsg1" = "Selecteer opties voor aangifte.";
+
+//Write Review Step
+"keyRVW6ThankYou" = "Dank je!";
+"keyRVW6Moderation" = "Ana moderatie is uw beoordeling zichtbaar op de profofielpagina van uw zorgverlener.";
+"keyRVW6OverallScore" = "Totale score";
+"keyRVW6ReturnHome" = "Terugkeren naar Home";
+
+//My Review
+"keyMRTitle" = "Mijn beoordeling";
+"keyMRNoReviewMsg1" = "Geen beoordelingen!";
+"keyMRGlobalRating" = "Globale beoordeling";
+
+//Review Detail
+"keyRDTitle" = "Beoordeling detail";
+"keyRDAnswer" = "Antwoord:";
+"keyRDNoteFor" = "Opmerking voor";
+
+"keyAppointmentTitle" = "Afspraak";
+
+//Inbox Section
+"keyIBXTTFAccept" = "";
+"keyIBXTTFModify" = "";
+"keyIBXTTFCreate" = "";
+"keyIBXTTFRegister" = "";
+
+/////////////////*************** NewLanguage Locally Managed ***************/////////////////
+"KeyProfessionalInfo" = "Professionele info";
+"KeyGallery" = "Galerij";
+"KeyReviews" = "Beoordeling";
+"KeySelectDate" = "Selecteer Startdatum";
+
+//Filter Screen Keys
+"KeyFilterLookingFor" = "Waar bent u naar op zoek?";
+"KeyFilterSpeciality" = "Kies specialiteit";
+"KeyFilterCountryCity" = "Land/Stad";
+"KeyFilterAppmtDate" = "Afspraakdatum";
+"KeyFilterOnlineAppmt" = "Online afspraak aanbieden";
+"KeyFilterLocationDist" = "Locatie afstand";
+"KeyFilterSpokenLan" = "Gesproken Taal";
+"KeyFilterGlobleRating" = "Globale beoordeling";
+"KeyFilterGender" = "Geslacht";
+"KeyFilterProfilePics" = "Profielfoto"; 
+
+"KeyFilterSelect" = "Kiezen";
+"KeyFilterNone" = "Geen";
+"KeyFilterNo" = "Nee";
+"KeyFilterBoth" = "Beide";
+
+// New Key For Blog Titile
+"KeyBlogDetailTitleHeader" = "Blog Detail";
+"KeyBlogTitleHeader" = "Blog";
+"KeyBlogTitleLatestPost" = "Laatste berichten";
+"KeyBlogTitleCategoriesTitle" = "Blog Categorieën";
+"KeyBlogTitleMostViewedTitle" = "Meest bekeken bericht";
+"KeyBlogTitleSearchPostTitle" = "Zoek bericht";
+"KeyBlogTitleFavoriteProviderList" = "Favoriete leverancierslijst";
+"KeyBlogTitleInbox" = "Postvak IN";
+"keyGlobalRating" = "Wereldwijde beoordelingen";
+"keyLocationDistance" = "Locatie afstand";
+
+
+// New Key For Blog Titile
+"KeyBlogTitleLatestPost" = "Laatste berichten";
+"KeyBlogTitleCategories" = "Categorieën";
+"KeyBlogTitleMostViewed" = "Meest bekeken";
+"KeyBlogTitleSearchPost" = "Zoek bericht";
+
+
+//login remaining
+"keyLoginPatient" = "Patient";
+"keyLoginProvider" = "Leverancier";
+"keyResultVarification" = "Verificatie";
+"KeyTextSearch" = "Zoeken";
+
+
+
+"KeyTextMale" = "Mannetje";
+"KeyTextFemale" = "Vrouw";
+"KeyTextBoth" = "Beide";
+

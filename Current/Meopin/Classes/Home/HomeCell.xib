@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12118" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Meopin_TOPS.ttf">
+            <string>Meopin_TOPS</string>
+        </array>
+        <array key="SourceSansPro-Bold.ttf">
+            <string>SourceSansPro-Bold</string>
+        </array>
+        <array key="SourceSansPro-SemiBold.ttf">
+            <string>SourceSansPro-SemiBold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HomeCell" customModule="Meopin" customModuleProvider="target"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="HomeCell" id="DYK-L6-rW1" customClass="HomeCell" customModule="Meopin" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="69"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="DYK-L6-rW1" id="yZF-EE-kip">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="68.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="P8S-eI-GRn">
+                        <rect key="frame" x="9" y="4" width="70" height="60"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="P8S-eI-GRn" secondAttribute="height" multiplier="7:6" id="uEp-Xu-9Q4"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Meopin_TOPS" family="Meopin_TOPS" pointSize="26"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Write a review" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Oul-H1-Dtv">
+                        <rect key="frame" x="88" y="16" width="225" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="Oul-H1-Dtv" secondAttribute="height" multiplier="74:7" constant="3" id="RtX-o8-fhx"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="SourceSansPro-Bold" family="Source Sans Pro" pointSize="16.5"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" placeholderIntrinsicWidth="225" placeholderIntrinsicHeight="15" text="and rate your provider" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zIb-V7-fQi">
+                        <rect key="frame" x="88" y="35" width="225" height="15"/>
+                        <fontDescription key="fontDescription" name="SourceSansPro-SemiBold" family="Source Sans Pro" pointSize="11.5"/>
+                        <color key="textColor" red="0.4941176471" green="0.63529411759999999" blue="0.81960784310000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Znn-g0-IbL">
+                        <rect key="frame" x="0.0" y="67" width="320" height="1"/>
+                        <color key="backgroundColor" red="0.4941176471" green="0.63529411759999999" blue="0.81960784310000001" alpha="0.20000000000000001" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="N6w-9c-KNS"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <color key="backgroundColor" red="0.1647058824" green="0.32156862749999998" blue="0.52549019610000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                <constraints>
+                    <constraint firstAttribute="trailingMargin" secondItem="zIb-V7-fQi" secondAttribute="trailing" constant="-1" id="7E5-kP-ad7"/>
+                    <constraint firstItem="P8S-eI-GRn" firstAttribute="leading" secondItem="yZF-EE-kip" secondAttribute="leadingMargin" constant="1" id="AzX-7z-PxE"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="Znn-g0-IbL" secondAttribute="bottom" constant="-7.5" id="EWv-D3-b8o"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="P8S-eI-GRn" secondAttribute="bottom" constant="-3.5" id="GRb-bH-Pew"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="Oul-H1-Dtv" secondAttribute="trailing" constant="-1" id="KQJ-Fc-9Ig"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="Znn-g0-IbL" secondAttribute="trailing" constant="-8" id="RsT-2Z-XLV"/>
+                    <constraint firstItem="P8S-eI-GRn" firstAttribute="top" secondItem="yZF-EE-kip" secondAttribute="topMargin" constant="-4" id="cfI-Cb-MDw"/>
+                    <constraint firstItem="Oul-H1-Dtv" firstAttribute="leading" secondItem="P8S-eI-GRn" secondAttribute="trailing" constant="9" id="gRW-zw-cZP"/>
+                    <constraint firstItem="Znn-g0-IbL" firstAttribute="leading" secondItem="yZF-EE-kip" secondAttribute="leadingMargin" constant="-8" id="i5c-1R-DQd"/>
+                    <constraint firstItem="Oul-H1-Dtv" firstAttribute="centerY" secondItem="yZF-EE-kip" secondAttribute="centerY" constant="-7.75" id="ofc-oH-WxC"/>
+                    <constraint firstItem="zIb-V7-fQi" firstAttribute="leading" secondItem="P8S-eI-GRn" secondAttribute="trailing" constant="9" id="p2g-Ri-18z"/>
+                    <constraint firstItem="zIb-V7-fQi" firstAttribute="top" secondItem="Oul-H1-Dtv" secondAttribute="bottom" constant="-2" id="wTM-Dk-EnT"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" red="0.1647058824" green="0.32156862749999998" blue="0.52549019610000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <connections>
+                <outlet property="lblIconOpt" destination="P8S-eI-GRn" id="xRL-ie-BwJ"/>
+                <outlet property="lblSubTitleOpt" destination="zIb-V7-fQi" id="2Qw-ax-ptu"/>
+                <outlet property="lblTitleOpt" destination="Oul-H1-Dtv" id="uzO-xh-pqD"/>
+            </connections>
+            <point key="canvasLocation" x="-10" y="-44.5"/>
+        </tableViewCell>
+    </objects>
+</document>

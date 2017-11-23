@@ -1,0 +1,92 @@
+PODS:
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - CalendarKit (0.1.21):
+    - DateToolsSwift
+    - Neon
+  - Cosmos (9.0.0)
+  - Crashlytics (3.8.5):
+    - Fabric (~> 1.6.3)
+  - DateToolsSwift (2.0.3)
+  - Fabric (1.6.12)
+  - FSCalendar (2.7.9)
+  - FXPageControl (1.5)
+  - GoogleMaps (2.4.0):
+    - GoogleMaps/Maps (= 2.4.0)
+  - GoogleMaps/Base (2.4.0)
+  - GoogleMaps/Maps (2.4.0):
+    - GoogleMaps/Base
+  - GooglePlacePicker (2.4.0):
+    - GoogleMaps (= 2.4.0)
+    - GooglePlaces (= 2.4.0)
+  - GooglePlaces (2.4.0):
+    - GoogleMaps/Base (= 2.4.0)
+  - HMSegmentedControl (1.5.4)
+  - IQKeyboardManagerSwift (4.0.11)
+  - ISMessages (1.2)
+  - Neon (0.4.0)
+  - RNNotificationView (2.0.1)
+  - SDWebImage (3.8.2):
+    - SDWebImage/Core (= 3.8.2)
+  - SDWebImage/Core (3.8.2)
+  - SpinKit (1.2.0)
+  - SVPullToRefresh (0.4.1)
+  - TOActionSheet (1.0.2)
+
+DEPENDENCIES:
+  - AFNetworking
+  - CalendarKit
+  - Cosmos (~> 9.0)
+  - Crashlytics
+  - FSCalendar
+  - FXPageControl
+  - GoogleMaps
+  - GooglePlacePicker
+  - GooglePlaces
+  - HMSegmentedControl
+  - IQKeyboardManagerSwift
+  - ISMessages
+  - RNNotificationView
+  - SDWebImage (~> 3.8)
+  - SpinKit
+  - SVPullToRefresh
+  - TOActionSheet
+
+SPEC CHECKSUMS:
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  CalendarKit: b120af0ad55373fe50bdcf95d9cb4578038ed1b3
+  Cosmos: 33eee62b2a0418452aef470f711f83c3ea061b7b
+  Crashlytics: dfbae35ef22ca189240d230ad501feea4ee85d2d
+  DateToolsSwift: bf69bf9056d9e53c5c03f06e51f219b9b8b02f9e
+  Fabric: f050464eac45a2ce5a8e6e6a07e977c0df32fe28
+  FSCalendar: a04b09f16f811bc92e82f3cf852a15225233b9d5
+  FXPageControl: 97620412515365d10a3282ec0660f49f6401a8f0
+  GoogleMaps: 8436ab5d1c25e36915b2f7416d0c8e3fa2e76c61
+  GooglePlacePicker: 755f10343d71280c7b016823e73fbae9625dfa8a
+  GooglePlaces: aafe5990fa7951e98e078761bbdaaf236d7e0c65
+  HMSegmentedControl: b25bc4ec44766e073d62c473188fb354ee244b76
+  IQKeyboardManagerSwift: 10f0a6b8ea2904c8943c0e1a116c99f5b8ad83af
+  ISMessages: d39098b48672813d69d30f44da06260b9920fed4
+  Neon: 7fb5a9327e7e57911843f608e08f4893a74deaf9
+  RNNotificationView: ba64eb4d03ebf047ca23223e2590761f70b846c9
+  SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
+  SpinKit: 65906a8b534a4e14cbfd3f8b0b6c329131faef4a
+  SVPullToRefresh: ba2e718695a43253d8bea6852d2960097dc15d8c
+  TOActionSheet: 5b9e1f5612d63daad06fe5dde62ae595dde1c10c
+
+PODFILE CHECKSUM: 96514a2fd3e167a8e9443338043932c5f255cf2e
+
+COCOAPODS: 1.2.0

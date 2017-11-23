@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12118" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="SourceSansPro-Regular.ttf">
+            <string>SourceSansPro-Regular</string>
+        </array>
+        <array key="SourceSansPro-SemiBold.ttf">
+            <string>SourceSansPro-SemiBold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PT_MyReviewsCell" customModule="Meopin" customModuleProvider="target"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="PT_MyReviewsCell" id="O1T-lx-zTI" customClass="PT_MyReviewsCell" customModule="Meopin" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="111"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="O1T-lx-zTI" id="Eyy-ne-RCL">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="110.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="p57-Sh-9I9">
+                        <rect key="frame" x="14" y="12" width="35" height="35"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="p57-Sh-9I9" secondAttribute="height" multiplier="1:1" id="8bn-mU-dkR"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" placeholderIntrinsicWidth="52" placeholderIntrinsicHeight="14" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4Pg-1f-imK">
+                        <rect key="frame" x="54" y="12" width="52" height="14"/>
+                        <fontDescription key="fontDescription" name="SourceSansPro-SemiBold" family="Source Sans Pro" pointSize="11"/>
+                        <color key="textColor" red="0.29411764705882354" green="0.29411764705882354" blue="0.29411764705882354" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" placeholderIntrinsicWidth="95" placeholderIntrinsicHeight="15" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5et-dK-VYD">
+                        <rect key="frame" x="114" y="12" width="95" height="15"/>
+                        <fontDescription key="fontDescription" name="SourceSansPro-Regular" family="Source Sans Pro" pointSize="11"/>
+                        <color key="textColor" red="0.29411764705882354" green="0.29411764705882354" blue="0.29411764705882354" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" placeholderIntrinsicWidth="252" placeholderIntrinsicHeight="42" text="" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vC2-fI-jRA">
+                        <rect key="frame" x="54" y="28" width="256" height="42"/>
+                        <fontDescription key="fontDescription" name="SourceSansPro-Regular" family="Source Sans Pro" pointSize="11"/>
+                        <color key="textColor" red="0.29411764705882354" green="0.29411764705882354" blue="0.29411764705882354" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" placeholderIntrinsicWidth="121" placeholderIntrinsicHeight="12" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QgS-qf-nYE">
+                        <rect key="frame" x="54" y="78" width="256" height="12"/>
+                        <fontDescription key="fontDescription" name="SourceSansPro-SemiBold" family="Source Sans Pro" pointSize="10"/>
+                        <color key="textColor" red="0.1647058824" green="0.32156862749999998" blue="0.52549019610000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" placeholderIntrinsicWidth="246" placeholderIntrinsicHeight="12" text="" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7K1-Df-050">
+                        <rect key="frame" x="54" y="91" width="256" height="12"/>
+                        <fontDescription key="fontDescription" name="SourceSansPro-SemiBold" family="Source Sans Pro" pointSize="8.5"/>
+                        <color key="textColor" red="0.58823529409999997" green="0.58823529409999997" blue="0.58823529409999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nuJ-td-AKK">
+                        <rect key="frame" x="15" y="110" width="290" height="1"/>
+                        <color key="backgroundColor" red="0.82352941180000006" green="0.82352941180000006" blue="0.82352941180000006" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="has-Es-2c5"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="4Pg-1f-imK" firstAttribute="top" secondItem="Eyy-ne-RCL" secondAttribute="topMargin" constant="4" id="1Le-qO-5kv"/>
+                    <constraint firstItem="QgS-qf-nYE" firstAttribute="leading" secondItem="p57-Sh-9I9" secondAttribute="trailing" constant="5" id="2RF-vY-BLp"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="nuJ-td-AKK" secondAttribute="trailing" constant="7" id="4mb-B5-dx0"/>
+                    <constraint firstItem="nuJ-td-AKK" firstAttribute="leading" secondItem="Eyy-ne-RCL" secondAttribute="leadingMargin" constant="7" id="6Dd-p3-sYq"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="nuJ-td-AKK" secondAttribute="bottom" constant="-8.5" id="84w-hM-o4I"/>
+                    <constraint firstItem="QgS-qf-nYE" firstAttribute="top" secondItem="vC2-fI-jRA" secondAttribute="bottom" constant="8" id="Bdv-fc-Red"/>
+                    <constraint firstItem="vC2-fI-jRA" firstAttribute="leading" secondItem="p57-Sh-9I9" secondAttribute="trailing" constant="5" id="FR8-rJ-H9O"/>
+                    <constraint firstItem="p57-Sh-9I9" firstAttribute="width" secondItem="Eyy-ne-RCL" secondAttribute="width" multiplier="0.109375" id="GUZ-0J-PoJ"/>
+                    <constraint firstItem="p57-Sh-9I9" firstAttribute="top" secondItem="Eyy-ne-RCL" secondAttribute="topMargin" constant="4" id="ITo-Vb-I8e"/>
+                    <constraint firstItem="7K1-Df-050" firstAttribute="top" secondItem="QgS-qf-nYE" secondAttribute="bottom" constant="1" id="KTM-3X-PAQ"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="vC2-fI-jRA" secondAttribute="trailing" constant="2" id="L9v-YX-J8k"/>
+                    <constraint firstItem="5et-dK-VYD" firstAttribute="top" secondItem="Eyy-ne-RCL" secondAttribute="topMargin" constant="4" id="Lut-f1-0eh"/>
+                    <constraint firstItem="4Pg-1f-imK" firstAttribute="leading" secondItem="p57-Sh-9I9" secondAttribute="trailing" constant="5" id="N3B-48-y6o"/>
+                    <constraint firstItem="p57-Sh-9I9" firstAttribute="leading" secondItem="Eyy-ne-RCL" secondAttribute="leadingMargin" constant="6" id="Njb-uT-Q3v"/>
+                    <constraint firstItem="nuJ-td-AKK" firstAttribute="top" secondItem="7K1-Df-050" secondAttribute="bottom" constant="7" id="SEF-fq-TTI"/>
+                    <constraint firstItem="vC2-fI-jRA" firstAttribute="top" secondItem="4Pg-1f-imK" secondAttribute="bottom" constant="2" id="aZr-vG-BIP"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="7K1-Df-050" secondAttribute="trailing" constant="2" id="crL-nR-Nm6"/>
+                    <constraint firstItem="5et-dK-VYD" firstAttribute="leading" secondItem="4Pg-1f-imK" secondAttribute="trailing" constant="8" id="gxf-zE-At6"/>
+                    <constraint firstItem="7K1-Df-050" firstAttribute="leading" secondItem="p57-Sh-9I9" secondAttribute="trailing" constant="5" id="kAn-ye-1Nu"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="QgS-qf-nYE" secondAttribute="trailing" constant="2" id="kva-v7-otD"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="imgProfilePic" destination="p57-Sh-9I9" id="LHg-O4-mNl"/>
+                <outlet property="lblReviewAllRating" destination="7K1-Df-050" id="D4P-gC-Cya"/>
+                <outlet property="lblReviewDesc" destination="vC2-fI-jRA" id="8eu-V5-aUW"/>
+                <outlet property="lblReviewRating" destination="QgS-qf-nYE" id="Z1N-xs-yJg"/>
+                <outlet property="lblReviewTime" destination="5et-dK-VYD" id="JH0-R1-pxv"/>
+                <outlet property="lblUserName" destination="4Pg-1f-imK" id="ezU-2g-cs0"/>
+            </connections>
+            <point key="canvasLocation" x="-206" y="77"/>
+        </tableViewCell>
+    </objects>
+</document>

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12118" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Meopin_TOPS.ttf">
+            <string>Meopin_TOPS</string>
+        </array>
+        <array key="SourceSansPro-SemiBold.ttf">
+            <string>SourceSansPro-SemiBold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SlideViewController">
+            <connections>
+                <outlet property="_slideNavigationController" destination="3" id="7"/>
+                <outlet property="_tableView" destination="C4P-NL-w2o" id="kGx-BW-LO7"/>
+                <outlet property="btnCloseMenu" destination="ZzT-1g-aaR" id="usM-1P-GXV"/>
+                <outlet property="lblAppTitle" destination="qrT-7F-3Wf" id="6Mr-UW-0F7"/>
+                <outlet property="view" destination="uXM-5M-55O" id="uY4-3b-j8F"/>
+                <outlet property="viewLanguages" destination="I27-Ku-Exn" id="9AU-yg-SeU"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view autoresizesSubviews="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="uXM-5M-55O">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wjd-E4-d1m">
+                    <rect key="frame" x="0.0" y="0.0" width="235" height="568"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mLl-4R-DUV">
+                            <rect key="frame" x="0.0" y="0.0" width="235" height="52"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="My Meopin" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="qrT-7F-3Wf">
+                                    <rect key="frame" x="17" y="11" width="164" height="30"/>
+                                    <fontDescription key="fontDescription" name="SourceSansPro-SemiBold" family="Source Sans Pro" pointSize="18"/>
+                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZzT-1g-aaR">
+                                    <rect key="frame" x="189" y="6" width="40" height="40"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" secondItem="ZzT-1g-aaR" secondAttribute="height" multiplier="1:1" id="cQQ-al-wRS"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" name="Meopin_TOPS" family="Meopin_TOPS" pointSize="17"/>
+                                    <state key="normal" title=""/>
+                                    <connections>
+                                        <action selector="btnCloseMenuClick:" destination="-1" eventType="touchUpInside" id="gN5-bj-7nh"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                            <color key="backgroundColor" red="0.1647058824" green="0.32156862749999998" blue="0.52549019610000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="bottom" secondItem="ZzT-1g-aaR" secondAttribute="bottom" constant="6" id="3sA-oK-yZ6"/>
+                                <constraint firstAttribute="trailing" secondItem="qrT-7F-3Wf" secondAttribute="trailing" constant="54" id="6wa-V7-2PG"/>
+                                <constraint firstAttribute="trailing" secondItem="ZzT-1g-aaR" secondAttribute="trailing" constant="6" id="JaG-EJ-hOU"/>
+                                <constraint firstItem="qrT-7F-3Wf" firstAttribute="leading" secondItem="mLl-4R-DUV" secondAttribute="leading" constant="17" id="K7D-zg-lTc"/>
+                                <constraint firstAttribute="width" secondItem="mLl-4R-DUV" secondAttribute="height" multiplier="235:52" id="WEm-D4-LLX"/>
+                                <constraint firstItem="qrT-7F-3Wf" firstAttribute="top" secondItem="mLl-4R-DUV" secondAttribute="top" constant="11" id="dsf-Nw-d2A"/>
+                                <constraint firstAttribute="bottom" secondItem="qrT-7F-3Wf" secondAttribute="bottom" constant="11" id="gbR-gA-phU"/>
+                                <constraint firstItem="ZzT-1g-aaR" firstAttribute="top" secondItem="mLl-4R-DUV" secondAttribute="top" constant="6" id="y8C-sr-bhO"/>
+                            </constraints>
+                        </view>
+                        <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="none" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="C4P-NL-w2o">
+                            <rect key="frame" x="0.0" y="52" width="235" height="484"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <connections>
+                                <outlet property="dataSource" destination="-1" id="NgM-gQ-cRe"/>
+                                <outlet property="delegate" destination="-1" id="26m-LA-mXy"/>
+                            </connections>
+                        </tableView>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="I27-Ku-Exn">
+                            <rect key="frame" x="0.0" y="536" width="235" height="32"/>
+                            <color key="backgroundColor" red="0.1647058824" green="0.32156862749999998" blue="0.52549019610000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="width" secondItem="I27-Ku-Exn" secondAttribute="height" multiplier="47:8" constant="47" id="tOl-9y-HSC"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="C4P-NL-w2o" secondAttribute="trailing" id="2ae-PK-zgG"/>
+                        <constraint firstItem="I27-Ku-Exn" firstAttribute="leading" secondItem="wjd-E4-d1m" secondAttribute="leading" id="5U1-j7-113"/>
+                        <constraint firstItem="C4P-NL-w2o" firstAttribute="top" secondItem="mLl-4R-DUV" secondAttribute="bottom" id="A5z-u8-pQZ"/>
+                        <constraint firstAttribute="trailing" secondItem="I27-Ku-Exn" secondAttribute="trailing" id="Fid-Ha-Szh"/>
+                        <constraint firstItem="I27-Ku-Exn" firstAttribute="top" secondItem="C4P-NL-w2o" secondAttribute="bottom" id="R1t-eB-gCJ"/>
+                        <constraint firstItem="C4P-NL-w2o" firstAttribute="leading" secondItem="wjd-E4-d1m" secondAttribute="leading" id="caN-LY-SCx"/>
+                        <constraint firstAttribute="width" secondItem="wjd-E4-d1m" secondAttribute="height" multiplier="235:568" id="e6t-fd-Wvd"/>
+                        <constraint firstItem="mLl-4R-DUV" firstAttribute="leading" secondItem="wjd-E4-d1m" secondAttribute="leading" id="pl0-b9-zpA"/>
+                        <constraint firstItem="mLl-4R-DUV" firstAttribute="top" secondItem="wjd-E4-d1m" secondAttribute="top" id="qr1-j9-6z8"/>
+                        <constraint firstAttribute="bottom" secondItem="I27-Ku-Exn" secondAttribute="bottom" id="thz-ey-WMM"/>
+                        <constraint firstAttribute="trailing" secondItem="mLl-4R-DUV" secondAttribute="trailing" id="vsa-dp-k3F"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="wjd-E4-d1m" secondAttribute="bottom" id="CcO-6Z-4TI"/>
+                <constraint firstItem="wjd-E4-d1m" firstAttribute="top" secondItem="uXM-5M-55O" secondAttribute="top" id="GAP-cD-Ubx"/>
+                <constraint firstItem="wjd-E4-d1m" firstAttribute="leading" secondItem="uXM-5M-55O" secondAttribute="leading" id="l66-t9-eof"/>
+            </constraints>
+            <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
+            <nil key="simulatedTopBarMetrics"/>
+            <nil key="simulatedBottomBarMetrics"/>
+            <point key="canvasLocation" x="-63" y="150"/>
+        </view>
+        <navigationController wantsFullScreenLayout="YES" navigationBarHidden="YES" id="3">
+            <extendedEdge key="edgesForExtendedLayout"/>
+            <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
+            <nil key="simulatedTopBarMetrics"/>
+            <nil key="simulatedBottomBarMetrics"/>
+            <navigationBar key="navigationBar" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="4" customClass="SlideViewNavigationBar">
+                <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <color key="tintColor" red="0.29411764709999999" green="0.45098039220000002" blue="0.59999999999999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            </navigationBar>
+            <connections>
+                <outlet property="delegate" destination="-1" id="15"/>
+            </connections>
+            <point key="canvasLocation" x="490" y="271"/>
+        </navigationController>
+    </objects>
+</document>

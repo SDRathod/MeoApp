@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12118" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="SourceSansPro-Regular.ttf">
+            <string>SourceSansPro-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PT_ReviewDetailCell" customModule="Meopin" customModuleProvider="target"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="PT_ReviewDetailCell" rowHeight="172" id="XfC-hP-XPv" customClass="PT_ReviewDetailCell" customModule="Meopin" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="84"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="XfC-hP-XPv" id="WcI-BO-0p3">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="83.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" placeholderIntrinsicWidth="240" placeholderIntrinsicHeight="38" text="How well did the probvider explain medical conditions and treatment plan?" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eWQ-1c-Lwd" customClass="MDHTMLLabel">
+                        <rect key="frame" x="20" y="17" width="280" height="38"/>
+                        <fontDescription key="fontDescription" name="SourceSansPro-Regular" family="Source Sans Pro" pointSize="12.699999809265137"/>
+                        <color key="textColor" red="0.25490196079999999" green="0.25490196079999999" blue="0.25490196079999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" placeholderIntrinsicWidth="280" placeholderIntrinsicHeight="15" text="Your answer: 5 = Very Good" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="D8T-Xv-XmB">
+                        <rect key="frame" x="20" y="61" width="280" height="15"/>
+                        <fontDescription key="fontDescription" name="SourceSansPro-Regular" family="Source Sans Pro" pointSize="13"/>
+                        <color key="textColor" red="0.1647058824" green="0.32156862749999998" blue="0.52549019610000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lqn-66-pW3">
+                        <rect key="frame" x="20" y="83" width="280" height="1"/>
+                        <color key="backgroundColor" red="0.82352941180000006" green="0.82352941180000006" blue="0.82352941180000006" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="SAu-KZ-f7a"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="D8T-Xv-XmB" firstAttribute="leading" secondItem="WcI-BO-0p3" secondAttribute="leadingMargin" constant="12" id="0C6-5x-8Oc"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="D8T-Xv-XmB" secondAttribute="trailing" constant="12" id="1mN-bq-yHw"/>
+                    <constraint firstItem="lqn-66-pW3" firstAttribute="top" secondItem="D8T-Xv-XmB" secondAttribute="bottom" constant="7" id="7JU-3v-LQM"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="lqn-66-pW3" secondAttribute="bottom" constant="-8.5" id="Bqc-lM-2Sn"/>
+                    <constraint firstItem="eWQ-1c-Lwd" firstAttribute="top" secondItem="WcI-BO-0p3" secondAttribute="topMargin" constant="9" id="FXL-Gm-DFh"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="eWQ-1c-Lwd" secondAttribute="trailing" constant="12" id="GZE-ie-S01"/>
+                    <constraint firstItem="lqn-66-pW3" firstAttribute="leading" secondItem="WcI-BO-0p3" secondAttribute="leadingMargin" constant="12" id="NRi-FT-Uzh"/>
+                    <constraint firstItem="eWQ-1c-Lwd" firstAttribute="leading" secondItem="WcI-BO-0p3" secondAttribute="leadingMargin" constant="12" id="QRn-SL-Ut3"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="lqn-66-pW3" secondAttribute="trailing" constant="12" id="iil-XD-nhW"/>
+                    <constraint firstItem="D8T-Xv-XmB" firstAttribute="top" secondItem="eWQ-1c-Lwd" secondAttribute="bottom" constant="6" id="keg-uG-N2l"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="lblRevAns" destination="D8T-Xv-XmB" id="cws-zU-8J0"/>
+                <outlet property="lblRevQues" destination="eWQ-1c-Lwd" id="UW9-JL-VdI"/>
+            </connections>
+            <point key="canvasLocation" x="-219" y="-93"/>
+        </tableViewCell>
+    </objects>
+</document>

@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12118" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Meopin_TOPS.ttf">
+            <string>Meopin_TOPS</string>
+        </array>
+        <array key="SourceSansPro-Regular.ttf">
+            <string>SourceSansPro-Regular</string>
+        </array>
+        <array key="SourceSansPro-SemiBold.ttf">
+            <string>SourceSansPro-SemiBold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="PR_BlogPostHeaderCell" rowHeight="250" id="KGk-i7-Jjw" customClass="PR_BlogPostHeaderCell" customModule="Meopin" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="250"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="249.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tw3-z6-3dF" customClass="PR_BlogHeaderView" customModule="Meopin" customModuleProvider="target">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="249.5"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BlogImage" translatesAutoresizingMaskIntoConstraints="NO" id="ZBZ-Ox-G1R">
+                                <rect key="frame" x="10" y="10" width="300" height="166"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="ZBZ-Ox-G1R" secondAttribute="height" multiplier="150:83" id="R9f-dR-i7h"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="tailTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aIP-d3-ZVP">
+                                <rect key="frame" x="20" y="15" width="120" height="30"/>
+                                <color key="backgroundColor" red="0.1647058824" green="0.32156862749999998" blue="0.52549019610000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="Bps-Hd-bd6"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="SourceSansPro-SemiBold" family="Source Sans Pro" pointSize="10"/>
+                                <state key="normal" title="CATEGORY NAME ">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="umF-eb-5rU">
+                                <rect key="frame" x="10" y="183" width="300" height="22.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="53" id="RaB-jM-fo1"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="SourceSansPro-Regular" family="Source Sans Pro" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Author Doctor Joh" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jey-p4-6ry">
+                                <rect key="frame" x="10" y="210.5" width="69" height="16"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="16" id="Ygh-kS-33s"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="SourceSansPro-Regular" family="Source Sans Pro" pointSize="9"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oEH-ww-Wyz">
+                                <rect key="frame" x="249.5" y="229.5" width="18" height="18"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="18" id="3Q7-UX-MHs"/>
+                                    <constraint firstAttribute="width" secondItem="oEH-ww-Wyz" secondAttribute="height" multiplier="1:1" id="P4w-TH-JmO"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Meopin_TOPS" family="Meopin_TOPS" pointSize="10"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="10 Views" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="v9n-sa-dNo">
+                                <rect key="frame" x="271.5" y="212" width="38.5" height="15"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" name="SourceSansPro-Regular" family="Source Sans Pro" pointSize="9"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kPZ-EH-hwr">
+                                <rect key="frame" x="248.5" y="210.5" width="18" height="18"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="kPZ-EH-hwr" secondAttribute="height" multiplier="1:1" id="3oV-rM-cwT"/>
+                                    <constraint firstAttribute="width" constant="18" id="fx1-xo-yzk"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Meopin_TOPS" family="Meopin_TOPS" pointSize="7"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="9 February, 2017" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hGd-ov-c17">
+                                <rect key="frame" x="10" y="228.5" width="69" height="11.5"/>
+                                <fontDescription key="fontDescription" name="SourceSansPro-Regular" family="Source Sans Pro" pointSize="9"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" Comments" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XWN-YC-dfx">
+                                <rect key="frame" x="271.5" y="233" width="38.5" height="11.5"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="10" id="PS5-7i-a2u"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="SourceSansPro-Regular" family="Source Sans Pro" pointSize="8"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Jey-p4-6ry" firstAttribute="top" secondItem="umF-eb-5rU" secondAttribute="bottom" constant="5" id="08w-ju-02J"/>
+                            <constraint firstItem="ZBZ-Ox-G1R" firstAttribute="width" secondItem="tw3-z6-3dF" secondAttribute="width" multiplier="0.9375" id="0aE-Em-yyt"/>
+                            <constraint firstItem="v9n-sa-dNo" firstAttribute="trailing" secondItem="XWN-YC-dfx" secondAttribute="trailing" id="0e3-7K-2Y6"/>
+                            <constraint firstItem="oEH-ww-Wyz" firstAttribute="top" secondItem="kPZ-EH-hwr" secondAttribute="bottom" constant="1" id="8oy-pU-Vz4"/>
+                            <constraint firstItem="umF-eb-5rU" firstAttribute="leading" secondItem="Jey-p4-6ry" secondAttribute="leading" id="9sb-Nb-hLI"/>
+                            <constraint firstItem="v9n-sa-dNo" firstAttribute="centerY" secondItem="kPZ-EH-hwr" secondAttribute="centerY" id="AKa-Ho-N0s"/>
+                            <constraint firstItem="XWN-YC-dfx" firstAttribute="centerY" secondItem="oEH-ww-Wyz" secondAttribute="centerY" id="AoY-yR-HdZ"/>
+                            <constraint firstItem="umF-eb-5rU" firstAttribute="top" secondItem="ZBZ-Ox-G1R" secondAttribute="bottom" constant="7" id="BEc-NT-Vcv"/>
+                            <constraint firstItem="XWN-YC-dfx" firstAttribute="top" secondItem="v9n-sa-dNo" secondAttribute="bottom" constant="6" id="HGM-v1-eBs"/>
+                            <constraint firstItem="Jey-p4-6ry" firstAttribute="leading" secondItem="hGd-ov-c17" secondAttribute="leading" id="LWJ-Qb-gfm"/>
+                            <constraint firstItem="XWN-YC-dfx" firstAttribute="width" secondItem="v9n-sa-dNo" secondAttribute="width" id="NfM-BV-Kf5"/>
+                            <constraint firstItem="aIP-d3-ZVP" firstAttribute="leading" secondItem="tw3-z6-3dF" secondAttribute="leading" constant="20" id="OPC-DC-dFM"/>
+                            <constraint firstItem="hGd-ov-c17" firstAttribute="top" secondItem="Jey-p4-6ry" secondAttribute="bottom" constant="2" id="OXv-7O-8bk"/>
+                            <constraint firstItem="Jey-p4-6ry" firstAttribute="trailing" secondItem="hGd-ov-c17" secondAttribute="trailing" id="PYx-7L-jR6"/>
+                            <constraint firstItem="aIP-d3-ZVP" firstAttribute="width" secondItem="tw3-z6-3dF" secondAttribute="width" multiplier="0.375" id="R5q-HJ-JrE"/>
+                            <constraint firstItem="v9n-sa-dNo" firstAttribute="height" secondItem="XWN-YC-dfx" secondAttribute="height" constant="3.5" id="Tsm-NA-rz5"/>
+                            <constraint firstItem="umF-eb-5rU" firstAttribute="leading" secondItem="tw3-z6-3dF" secondAttribute="leading" constant="10" id="XJh-uM-qfL"/>
+                            <constraint firstAttribute="bottom" secondItem="oEH-ww-Wyz" secondAttribute="bottom" constant="2" id="aSg-Q0-eev"/>
+                            <constraint firstItem="aIP-d3-ZVP" firstAttribute="top" secondItem="tw3-z6-3dF" secondAttribute="top" constant="15" id="bXL-uW-PU7"/>
+                            <constraint firstItem="ZBZ-Ox-G1R" firstAttribute="leading" secondItem="tw3-z6-3dF" secondAttribute="leading" constant="10" id="gfH-W2-xd5"/>
+                            <constraint firstItem="umF-eb-5rU" firstAttribute="trailing" secondItem="v9n-sa-dNo" secondAttribute="trailing" id="gpC-TX-uU9"/>
+                            <constraint firstAttribute="trailing" secondItem="umF-eb-5rU" secondAttribute="trailing" constant="10" id="hdE-yZ-1mG"/>
+                            <constraint firstItem="v9n-sa-dNo" firstAttribute="leading" secondItem="kPZ-EH-hwr" secondAttribute="trailing" constant="5" id="jVC-ue-WFP"/>
+                            <constraint firstItem="ZBZ-Ox-G1R" firstAttribute="top" secondItem="tw3-z6-3dF" secondAttribute="top" constant="10" id="npu-Hc-dOe"/>
+                            <constraint firstItem="Jey-p4-6ry" firstAttribute="top" secondItem="kPZ-EH-hwr" secondAttribute="top" id="nxn-9a-Coj"/>
+                            <constraint firstAttribute="trailing" secondItem="ZBZ-Ox-G1R" secondAttribute="trailing" constant="10" id="y7r-fl-whZ"/>
+                            <constraint firstItem="XWN-YC-dfx" firstAttribute="leading" secondItem="oEH-ww-Wyz" secondAttribute="trailing" constant="4" id="zQH-fz-tia"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="tw3-z6-3dF" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="MPY-5r-9pO"/>
+                    <constraint firstAttribute="bottom" secondItem="tw3-z6-3dF" secondAttribute="bottom" id="TDq-Jw-W34"/>
+                    <constraint firstItem="tw3-z6-3dF" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="UIh-O5-EtE"/>
+                    <constraint firstAttribute="trailing" secondItem="tw3-z6-3dF" secondAttribute="trailing" id="whh-Rc-6iL"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="btnCategoryName" destination="aIP-d3-ZVP" id="meJ-ce-nCe"/>
+                <outlet property="imgProfile" destination="ZBZ-Ox-G1R" id="FwD-fS-tpn"/>
+                <outlet property="lblAuthorName" destination="Jey-p4-6ry" id="Kcd-2e-eT8"/>
+                <outlet property="lblCommentCount" destination="XWN-YC-dfx" id="SYA-6r-4ex"/>
+                <outlet property="lblCommentTTF" destination="oEH-ww-Wyz" id="fQr-Ut-vzK"/>
+                <outlet property="lblDate" destination="hGd-ov-c17" id="kbV-9w-FyX"/>
+                <outlet property="lblDiscription" destination="umF-eb-5rU" id="S79-CZ-tyf"/>
+                <outlet property="lblPostView" destination="v9n-sa-dNo" id="GKk-08-FUq"/>
+                <outlet property="lblPostViewTTF" destination="kPZ-EH-hwr" id="KrP-0o-NFD"/>
+            </connections>
+            <point key="canvasLocation" x="167" y="90"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="BlogImage" width="250" height="166"/>
+    </resources>
+</document>

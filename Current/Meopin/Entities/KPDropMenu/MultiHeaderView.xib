@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12118" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="SourceSansPro-Regular.ttf">
+            <string>SourceSansPro-Regular</string>
+        </array>
+        <array key="SourceSansPro-SemiBold.ttf">
+            <string>SourceSansPro-SemiBold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT" customClass="MultiHeaderView">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="50"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5Po-fc-dcC">
+                    <rect key="frame" x="0.0" y="49" width="320" height="1"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="1" id="Rjd-jr-T2o"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5zY-rc-SP6">
+                    <rect key="frame" x="5" y="9.5" width="41" height="30"/>
+                    <fontDescription key="fontDescription" name="SourceSansPro-SemiBold" family="Source Sans Pro" pointSize="14"/>
+                    <state key="normal" title="Cancel">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Select" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wOT-H2-grX">
+                    <rect key="frame" x="139.5" y="15" width="41.5" height="20.5"/>
+                    <fontDescription key="fontDescription" name="SourceSansPro-Regular" family="Source Sans Pro" pointSize="16"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="r1V-jF-i8n">
+                    <rect key="frame" x="283" y="9.5" width="32" height="30"/>
+                    <fontDescription key="fontDescription" name="SourceSansPro-SemiBold" family="Source Sans Pro" pointSize="14"/>
+                    <state key="normal" title="Done">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="0.1647058824" green="0.32156862749999998" blue="0.52549019610000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="wOT-H2-grX" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="5HK-CG-ZrC"/>
+                <constraint firstItem="5zY-rc-SP6" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="IPr-Dy-xZ8"/>
+                <constraint firstAttribute="trailing" secondItem="5Po-fc-dcC" secondAttribute="trailing" id="Jzn-Tu-771"/>
+                <constraint firstItem="5zY-rc-SP6" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="5" id="UDX-dp-USL"/>
+                <constraint firstAttribute="trailing" secondItem="r1V-jF-i8n" secondAttribute="trailing" constant="5" id="USG-N5-wct"/>
+                <constraint firstItem="5Po-fc-dcC" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="eKa-io-QXe"/>
+                <constraint firstItem="r1V-jF-i8n" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="fb6-eJ-U5F"/>
+                <constraint firstAttribute="bottom" secondItem="5Po-fc-dcC" secondAttribute="bottom" id="k9J-3V-VhD"/>
+                <constraint firstItem="wOT-H2-grX" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="rNX-bM-kb6"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="btnCancel" destination="5zY-rc-SP6" id="CFD-cY-c0B"/>
+                <outlet property="btnDone" destination="r1V-jF-i8n" id="66h-7C-PyD"/>
+                <outlet property="lblTitle" destination="wOT-H2-grX" id="RS3-nJ-RBB"/>
+            </connections>
+            <point key="canvasLocation" x="-208" y="-800"/>
+        </view>
+    </objects>
+</document>

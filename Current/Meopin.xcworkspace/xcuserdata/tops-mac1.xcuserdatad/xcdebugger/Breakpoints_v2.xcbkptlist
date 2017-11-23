@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Meopin/Classes/Patient Section/PT_Dashboard/PatientDashboardVC.swift"
+            timestampString = "532875988.141844"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "438"
+            endingLineNumber = "438"
+            landmarkName = "segmentAppointValueChanged()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Meopin/Classes/Patient Section/PT_Dashboard/PatientDashboardVC.swift"
+            timestampString = "532876236.940228"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "448"
+            endingLineNumber = "448"
+            landmarkName = "segmentAppointValueChanged()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Meopin/Entities/APIManager/AFAPIMaster.swift"
+            timestampString = "532879594.77201"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "367"
+            endingLineNumber = "367"
+            landmarkName = "getReceivedRequestListDataCall_Completion(params:showLoader:enableInteraction:viewObj:onSuccess:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Meopin/Classes/Provider Section/PR_Scheduling/PR_ReceivedReqListVC.swift"
+            timestampString = "532879743.828288"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "95"
+            endingLineNumber = "95"
+            landmarkName = "getReceivedRequestListCall()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Meopin.PR_ReceivedReqListVC.(getReceivedRequestListCall () -&gt; ()).(closure #1)"
+                  moduleName = "Meopin"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Data/Chirag_IOS%20Project/GitProject/Current_Project/Meopin/MeopinLatest/Chirag_Meopin/Chirag_Meopin/Meopin_iOS_New_Swift/Current/Meopin/Classes/Provider%20Section/PR_Scheduling/PR_ReceivedReqListVC.swift"
+                  timestampString = "532950481.767798"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "95"
+                  endingLineNumber = "95"
+                  offsetFromSymbolStart = "537">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Meopin.PR_ReceivedReqListVC.(getReceivedRequestListCall () -&gt; ()).(closure #1)"
+                  moduleName = "Meopin"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Data/Chirag_IOS%20Project/GitProject/Current_Project/Meopin/MeopinLatest/Chirag_Meopin/Chirag_Meopin/Meopin_iOS_New_Swift/Current/Meopin/Classes/Provider%20Section/PR_Scheduling/PR_ReceivedReqListVC.swift"
+                  timestampString = "532950481.771014"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "95"
+                  endingLineNumber = "95"
+                  offsetFromSymbolStart = "1215">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Meopin/Classes/Provider Section/PR_Scheduling/PR_ReceivedReqListVC.swift"
+            timestampString = "532879743.828288"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "96"
+            endingLineNumber = "96"
+            landmarkName = "getReceivedRequestListCall()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Meopin.PR_ReceivedReqListVC.(getReceivedRequestListCall () -&gt; ()).(closure #1)"
+                  moduleName = "Meopin"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Data/Chirag_IOS%20Project/GitProject/Current_Project/Meopin/MeopinLatest/Chirag_Meopin/Chirag_Meopin/Meopin_iOS_New_Swift/Current/Meopin/Classes/Provider%20Section/PR_Scheduling/PR_ReceivedReqListVC.swift"
+                  timestampString = "532950481.778411"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "96"
+                  endingLineNumber = "96"
+                  offsetFromSymbolStart = "1260">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Meopin.PR_ReceivedReqListVC.(getReceivedRequestListCall () -&gt; ()).(closure #1)"
+                  moduleName = "Meopin"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Data/Chirag_IOS%20Project/GitProject/Current_Project/Meopin/MeopinLatest/Chirag_Meopin/Chirag_Meopin/Meopin_iOS_New_Swift/Current/Meopin/Classes/Provider%20Section/PR_Scheduling/PR_ReceivedReqListVC.swift"
+                  timestampString = "532950481.781527"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "96"
+                  endingLineNumber = "96"
+                  offsetFromSymbolStart = "1968">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Meopin/Classes/Provider Section/PR_Scheduling/ProviderSchedulingVC.swift"
+            timestampString = "532934023.434792"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "636"
+            endingLineNumber = "636"
+            landmarkName = "getAppointmentScheduleForSelDateCall()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Meopin.ProviderSchedulingVC.getAppointmentScheduleForSelDateCall () -&gt; ()"
+                  moduleName = "Meopin"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Data/Chirag_IOS%20Project/GitProject/Current_Project/Meopin/MeopinLatest/Chirag_Meopin/Chirag_Meopin/Meopin_iOS_New_Swift/Current/Meopin/Classes/Provider%20Section/PR_Scheduling/ProviderSchedulingVC.swift"
+                  timestampString = "532950481.788905"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "636"
+                  endingLineNumber = "636"
+                  offsetFromSymbolStart = "3181">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Meopin.ProviderSchedulingVC.(getAppointmentScheduleForSelDateCall () -&gt; ()).(closure #1)"
+                  moduleName = "Meopin"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Data/Chirag_IOS%20Project/GitProject/Current_Project/Meopin/MeopinLatest/Chirag_Meopin/Chirag_Meopin/Meopin_iOS_New_Swift/Current/Meopin/Classes/Provider%20Section/PR_Scheduling/ProviderSchedulingVC.swift"
+                  timestampString = "532950481.792151"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "637"
+                  endingLineNumber = "637"
+                  offsetFromSymbolStart = "35">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Meopin/Classes/Provider Section/PR_Scheduling/PR_AppointmentModifyVC.swift"
+            timestampString = "532939635.504388"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "230"
+            endingLineNumber = "230"
+            landmarkName = "getAppointmentScheduleForSelDateCall()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Meopin/Classes/Provider Section/PR_Scheduling/PR_AppointmentModifyVC.swift"
+            timestampString = "532939635.504388"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "244"
+            endingLineNumber = "244"
+            landmarkName = "getAppointmentScheduleForSelDateCall()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Meopin/Classes/Provider Section/PR_Scheduling/PR_ReceivedReqListVC.swift"
+            timestampString = "532934122.131967"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "85"
+            endingLineNumber = "85"
+            landmarkName = "getReceivedRequestListCall()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Meopin/Classes/Provider Section/PR_Scheduling/PR_AppointmentModifyVC.swift"
+            timestampString = "532948317.988302"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "622"
+            endingLineNumber = "622"
+            landmarkName = "textViewDidEndEditing(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Meopin/Classes/Patient Section/PT_Inbox/PT_InboxVC.swift"
+            timestampString = "532949737.237301"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "323"
+            endingLineNumber = "323"
+            landmarkName = "textField(_:shouldChangeCharactersIn:replacementString:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Meopin/Classes/Patient Section/PT_Inbox/PT_InboxVC.swift"
+            timestampString = "532949737.237301"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "333"
+            endingLineNumber = "333"
+            landmarkName = "textFieldDidEndEditing(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Meopin/Classes/Patient Section/PT_Inbox/PT_InboxVC.swift"
+            timestampString = "532949737.237301"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "318"
+            endingLineNumber = "318"
+            landmarkName = "textFieldDidBeginEditing(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Meopin/Classes/Patient Section/PT_Inbox/PT_InboxVC.swift"
+            timestampString = "532949569.372219"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "196"
+            endingLineNumber = "196"
+            landmarkName = "keyboardShown(notification:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Meopin/Classes/Patient Section/PT_Inbox/PT_InboxVC.swift"
+            timestampString = "532949572.21248"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "209"
+            endingLineNumber = "209"
+            landmarkName = "keyboardHide(notification:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Meopin/Classes/Patient Section/PT_MyFavorites/PT_MyFavoritesVC.swift"
+            timestampString = "532950480.226781"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "481"
+            endingLineNumber = "481"
+            landmarkName = "textFieldDidBeginEditing(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

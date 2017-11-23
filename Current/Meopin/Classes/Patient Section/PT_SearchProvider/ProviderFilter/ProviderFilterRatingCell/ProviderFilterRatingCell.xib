@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12118" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="SourceSansPro-SemiBold.ttf">
+            <string>SourceSansPro-SemiBold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ProviderFilterRatingCell" rowHeight="125" id="KGk-i7-Jjw" customClass="ProviderFilterRatingCell" customModule="Meopin" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="80"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="79.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Global Ratings" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BX3-ZF-4Ly">
+                        <rect key="frame" x="10" y="8" width="173" height="17.5"/>
+                        <fontDescription key="fontDescription" name="SourceSansPro-SemiBold" family="Source Sans Pro" pointSize="15"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8QI-uu-Xht" customClass="CosmosView" customModule="Cosmos">
+                        <rect key="frame" x="30" y="30" width="290" height="45.5"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="45.5" id="vX7-3R-iJm"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="starSize">
+                                <real key="value" value="40"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="rating">
+                                <real key="value" value="0.0"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="totalStars">
+                                <integer key="value" value="5"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="color" keyPath="filledColor">
+                                <color key="value" red="0.35294117650000001" green="0.65490196079999996" blue="0.23529411759999999" alpha="1" colorSpace="calibratedRGB"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="color" keyPath="filledBorderColor">
+                                <color key="value" red="0.35294117650000001" green="0.65490196079999996" blue="0.23529411759999999" alpha="1" colorSpace="calibratedRGB"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="color" keyPath="emptyBorderColor">
+                                <color key="value" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VdH-7h-AUV">
+                        <rect key="frame" x="310" y="17.5" width="0.0" height="0.0"/>
+                        <fontDescription key="fontDescription" name="SourceSansPro-SemiBold" family="Source Sans Pro" pointSize="15"/>
+                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="8QI-uu-Xht" secondAttribute="trailing" id="45u-QN-edl"/>
+                    <constraint firstItem="BX3-ZF-4Ly" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="FIy-iY-o3T"/>
+                    <constraint firstItem="BX3-ZF-4Ly" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="G6b-nK-6vY"/>
+                    <constraint firstItem="BX3-ZF-4Ly" firstAttribute="centerY" secondItem="VdH-7h-AUV" secondAttribute="centerY" id="I5B-BB-dTg"/>
+                    <constraint firstItem="8QI-uu-Xht" firstAttribute="trailing" secondItem="VdH-7h-AUV" secondAttribute="trailing" constant="10" id="ZJ4-dW-ITX"/>
+                    <constraint firstItem="8QI-uu-Xht" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="30" id="fqU-Gp-PJm"/>
+                    <constraint firstItem="8QI-uu-Xht" firstAttribute="top" secondItem="BX3-ZF-4Ly" secondAttribute="bottom" constant="5" id="tcF-8x-QPa"/>
+                    <constraint firstItem="8QI-uu-Xht" firstAttribute="trailing" secondItem="BX3-ZF-4Ly" secondAttribute="trailing" constant="137" id="xmA-C5-30v"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="lblRatCoubt" destination="VdH-7h-AUV" id="b5Q-xp-0Po"/>
+                <outlet property="lblRate" destination="BX3-ZF-4Ly" id="ciC-sr-ybh"/>
+                <outlet property="ratingView" destination="8QI-uu-Xht" id="My1-0D-Em9"/>
+            </connections>
+            <point key="canvasLocation" x="-34" y="-44"/>
+        </tableViewCell>
+    </objects>
+</document>

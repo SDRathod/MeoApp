@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12118" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="SourceSansPro-Regular.ttf">
+            <string>SourceSansPro-Regular</string>
+        </array>
+        <array key="SourceSansPro-SemiBold.ttf">
+            <string>SourceSansPro-SemiBold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SchedulingSpecialRuleCell" customModule="Meopin" customModuleProvider="target"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="SchedulingSpecialRuleCell" id="tPD-Dr-JmB" customClass="SchedulingSpecialRuleCell" customModule="Meopin" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="65"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="tPD-Dr-JmB" id="2ZZ-OX-xVC">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="65"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="StB-QS-RMM">
+                        <rect key="frame" x="18" y="0.0" width="290" height="60"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1000 days" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cRn-eY-PYu">
+                                <rect key="frame" x="9" y="7" width="150" height="25"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="cRn-eY-PYu" secondAttribute="height" multiplier="6:1" id="iO3-cx-fDD"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="SourceSansPro-SemiBold" family="Source Sans Pro" pointSize="15"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1000 days" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0mH-4m-rgK">
+                                <rect key="frame" x="165" y="7" width="116" height="25"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="0mH-4m-rgK" secondAttribute="height" multiplier="116:25" id="pYM-GG-yTP"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="SourceSansPro-SemiBold" family="Source Sans Pro" pointSize="15"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mon 11 Sep 2017 to Wed 20 Sep 2017" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fMb-Yy-s4z">
+                                <rect key="frame" x="9" y="34" width="272" height="22"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="fMb-Yy-s4z" secondAttribute="height" multiplier="94:7" constant="-23.428571428571445" id="MXa-wz-FNk"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="SourceSansPro-Regular" family="Source Sans Pro" pointSize="11.300000190734863"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="0.69999999999999996" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.2274509804" blue="0.1843137255" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="cRn-eY-PYu" firstAttribute="width" secondItem="StB-QS-RMM" secondAttribute="width" multiplier="0.5172" id="ABG-lj-0w6"/>
+                            <constraint firstItem="cRn-eY-PYu" firstAttribute="leading" secondItem="StB-QS-RMM" secondAttribute="leading" constant="9" id="Dai-vm-Pm8"/>
+                            <constraint firstItem="0mH-4m-rgK" firstAttribute="top" secondItem="StB-QS-RMM" secondAttribute="top" constant="7" id="Dny-rJ-wTb"/>
+                            <constraint firstItem="0mH-4m-rgK" firstAttribute="leading" secondItem="cRn-eY-PYu" secondAttribute="trailing" constant="6" id="Lnd-0r-Idu"/>
+                            <constraint firstItem="fMb-Yy-s4z" firstAttribute="top" secondItem="cRn-eY-PYu" secondAttribute="bottom" constant="2" id="NG2-4b-FYB"/>
+                            <constraint firstItem="cRn-eY-PYu" firstAttribute="top" secondItem="StB-QS-RMM" secondAttribute="top" constant="7" id="PC3-Uu-dtA"/>
+                            <constraint firstAttribute="trailing" secondItem="0mH-4m-rgK" secondAttribute="trailing" constant="9" id="PLK-BW-GCn"/>
+                            <constraint firstItem="fMb-Yy-s4z" firstAttribute="leading" secondItem="StB-QS-RMM" secondAttribute="leading" constant="9" id="WHH-mF-2ur"/>
+                            <constraint firstItem="0mH-4m-rgK" firstAttribute="width" secondItem="StB-QS-RMM" secondAttribute="width" multiplier="0.4" id="WZa-z6-rTH"/>
+                            <constraint firstAttribute="trailing" secondItem="fMb-Yy-s4z" secondAttribute="trailing" constant="9" id="ilR-1D-Zzm"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="StB-QS-RMM" firstAttribute="top" secondItem="2ZZ-OX-xVC" secondAttribute="topMargin" constant="-8" id="Hnk-hi-uD7"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="StB-QS-RMM" secondAttribute="trailing" constant="4" id="TwZ-LG-U84"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="StB-QS-RMM" secondAttribute="bottom" constant="-3.5" id="hsO-gP-CEt"/>
+                    <constraint firstItem="StB-QS-RMM" firstAttribute="leading" secondItem="2ZZ-OX-xVC" secondAttribute="leadingMargin" constant="10" id="l4g-Zk-tzx"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="lblRuleDetail" destination="fMb-Yy-s4z" id="mcp-by-699"/>
+                <outlet property="lblRuleTitle" destination="cRn-eY-PYu" id="gcq-tS-jo3"/>
+                <outlet property="lblRuleType" destination="0mH-4m-rgK" id="iuc-3K-d9X"/>
+                <outlet property="viewCellBg" destination="StB-QS-RMM" id="uJb-tZ-aCc"/>
+            </connections>
+            <point key="canvasLocation" x="13" y="-32.5"/>
+        </tableViewCell>
+    </objects>
+</document>

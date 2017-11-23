@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12118" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="SourceSansPro-Regular.ttf">
+            <string>SourceSansPro-Regular</string>
+        </array>
+        <array key="SourceSansPro-SemiBold.ttf">
+            <string>SourceSansPro-SemiBold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SchedulingOnLeaveCell" customModule="Meopin" customModuleProvider="target"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="SchedulingOnLeaveCell" id="pZd-8W-FDD" customClass="SchedulingOnLeaveCell" customModule="Meopin" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="65"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="pZd-8W-FDD" id="YfH-UB-xbW">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="64.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QLq-7h-nk3">
+                        <rect key="frame" x="18" y="0.0" width="290" height="60"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="1000 days" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8jn-cq-vRk">
+                                <rect key="frame" x="9" y="7" width="272" height="25"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="8jn-cq-vRk" secondAttribute="height" multiplier="272:25" id="Gmb-8E-Rgk"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="SourceSansPro-SemiBold" family="Source Sans Pro" pointSize="15"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Mon 11 Sep 2017 to Wed 20 Sep 2017" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WfL-BD-E8G">
+                                <rect key="frame" x="9" y="34" width="272" height="22"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="WfL-BD-E8G" secondAttribute="height" multiplier="94:7" constant="-23.428571428571445" id="L3Z-Di-oVK"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="SourceSansPro-Regular" family="Source Sans Pro" pointSize="11.300000190734863"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="0.69999999999999996" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.22745098039215686" blue="0.18431372549019609" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="WfL-BD-E8G" firstAttribute="leading" secondItem="QLq-7h-nk3" secondAttribute="leading" constant="9" id="Dnq-4O-JmS"/>
+                            <constraint firstItem="8jn-cq-vRk" firstAttribute="leading" secondItem="QLq-7h-nk3" secondAttribute="leading" constant="9" id="JRz-o1-xlF"/>
+                            <constraint firstItem="8jn-cq-vRk" firstAttribute="top" secondItem="QLq-7h-nk3" secondAttribute="top" constant="5" id="Wgw-6o-HR9"/>
+                            <constraint firstAttribute="trailing" secondItem="WfL-BD-E8G" secondAttribute="trailing" constant="9" id="f38-kZ-igh"/>
+                            <constraint firstItem="WfL-BD-E8G" firstAttribute="top" secondItem="8jn-cq-vRk" secondAttribute="bottom" constant="2" id="flh-RU-ZxO"/>
+                            <constraint firstAttribute="trailing" secondItem="8jn-cq-vRk" secondAttribute="trailing" constant="9" id="lia-Bi-56J"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="QLq-7h-nk3" firstAttribute="leading" secondItem="YfH-UB-xbW" secondAttribute="leadingMargin" constant="10" id="1Ld-eu-GYs"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="QLq-7h-nk3" secondAttribute="bottom" constant="-3.5" id="7rL-qK-W9n"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="QLq-7h-nk3" secondAttribute="trailing" constant="4" id="AE7-r5-ghw"/>
+                    <constraint firstItem="QLq-7h-nk3" firstAttribute="top" secondItem="YfH-UB-xbW" secondAttribute="topMargin" constant="-8" id="nWf-SO-dub"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="lblStartEndDate" destination="WfL-BD-E8G" id="Wk8-qg-Vfj"/>
+                <outlet property="lblTotDays" destination="8jn-cq-vRk" id="LLP-do-jQN"/>
+                <outlet property="viewCellBg" destination="QLq-7h-nk3" id="WKt-jP-kyv"/>
+            </connections>
+            <point key="canvasLocation" x="13" y="-32.5"/>
+        </tableViewCell>
+    </objects>
+</document>

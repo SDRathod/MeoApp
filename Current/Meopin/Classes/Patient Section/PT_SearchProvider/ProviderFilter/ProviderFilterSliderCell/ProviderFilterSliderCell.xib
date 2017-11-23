@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12118" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="SourceSansPro-Regular.ttf">
+            <string>SourceSansPro-Regular</string>
+        </array>
+        <array key="SourceSansPro-SemiBold.ttf">
+            <string>SourceSansPro-SemiBold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="KGk-i7-Jjw" customClass="ProviderFilterSliderCell" customModule="Meopin" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="90"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="89.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="10" minValue="0.0" maxValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="400-Sy-WP1" customClass="CustomSlider" customModule="Meopin" customModuleProvider="target">
+                        <rect key="frame" x="8" y="44" width="299" height="31"/>
+                        <color key="minimumTrackTintColor" red="0.35294117650000001" green="0.65490196079999996" blue="0.23529411759999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="maximumTrackTintColor" red="0.90588235294117647" green="0.90588235294117647" blue="0.90588235294117647" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="thumbTintColor" red="0.92156862745098034" green="0.92156862745098034" blue="0.92156862745098034" alpha="1" colorSpace="calibratedRGB"/>
+                        <connections>
+                            <action selector="sliderValueChangedWithSender:" destination="KGk-i7-Jjw" eventType="valueChanged" id="ZIZ-my-9eh"/>
+                        </connections>
+                    </slider>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Location Distance" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nTU-GF-5e9">
+                        <rect key="frame" x="10" y="10" width="103.5" height="19"/>
+                        <fontDescription key="fontDescription" name="SourceSansPro-Regular" family="Source Sans Pro" pointSize="14"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Km" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PQ7-ml-yrU">
+                        <rect key="frame" x="288" y="10" width="22" height="19"/>
+                        <fontDescription key="fontDescription" name="SourceSansPro-SemiBold" family="Source Sans Pro" pointSize="15"/>
+                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="nTU-GF-5e9" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="6Dg-hl-aPz"/>
+                    <constraint firstItem="nTU-GF-5e9" firstAttribute="leading" secondItem="400-Sy-WP1" secondAttribute="leading" id="CML-5E-kx2"/>
+                    <constraint firstItem="nTU-GF-5e9" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="OpC-CN-hLi"/>
+                    <constraint firstItem="nTU-GF-5e9" firstAttribute="height" secondItem="PQ7-ml-yrU" secondAttribute="height" id="U5i-Bv-6Sy"/>
+                    <constraint firstAttribute="trailing" secondItem="PQ7-ml-yrU" secondAttribute="trailing" constant="10" id="YPq-6m-m8g"/>
+                    <constraint firstItem="400-Sy-WP1" firstAttribute="top" secondItem="nTU-GF-5e9" secondAttribute="bottom" constant="15" id="dhE-Ij-Mfe"/>
+                    <constraint firstAttribute="trailing" secondItem="400-Sy-WP1" secondAttribute="trailing" constant="15" id="gTy-xI-Zji"/>
+                    <constraint firstItem="nTU-GF-5e9" firstAttribute="centerY" secondItem="PQ7-ml-yrU" secondAttribute="centerY" id="iUx-aC-zj9"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="distanceSlider" destination="400-Sy-WP1" id="Cya-RM-QJ5"/>
+                <outlet property="lblDistance" destination="nTU-GF-5e9" id="wRO-Jj-h9J"/>
+                <outlet property="lbldistanceVal" destination="PQ7-ml-yrU" id="0u8-0m-wfx"/>
+            </connections>
+            <point key="canvasLocation" x="9" y="-50.5"/>
+        </tableViewCell>
+    </objects>
+</document>
